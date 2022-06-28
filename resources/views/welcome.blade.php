@@ -5,8 +5,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Katya & Carlos &raquo; {{ $title ?? 'Nuestra boda' }}</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="description" content="Sitio de nuestra boda - Katya & Carlos - 26 de Noviembre de 2022">
+        <meta name="keywords" content="Boda, wedding, San Cristóbal de las Casas, Chiapas, noviembre, Katya, Carlos">
         <link rel="icon" type="image/png" href="/images/favicons/favicon-1.png">
 
         <!-- styles -->
