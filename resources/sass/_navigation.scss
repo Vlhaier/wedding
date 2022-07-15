@@ -1,0 +1,27 @@
+.simplebar-scrollbar::before {
+  @apply bg-green-800;
+}
+
+.simplebar-vertical .simplebar-scrollbar::before {
+  @apply w-1 #{!important};
+}
+
+.simplebar-custom-vertical {
+  .simplebar-content-wrapper {
+    @screen lg {
+      @apply pr-3;
+    }
+  }
+
+  .simplebar-vertical {
+    @apply -mr-1;
+  }
+}
+
+.home-dotted {
+  height: calc(50vh - 260px);
+}
+
+.section-overflow {
+  min-height: 600px;
+}

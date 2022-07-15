@@ -1,0 +1,22 @@
+.home-arrow {
+  @apply -mt-2;
+  animation: 1.3s arrowFade infinite;
+}
+
+@keyframes arrowFade {
+  0% {
+    @apply -mt-2;
+  }
+
+  50% {
+    @apply mt-0;
+  }
+
+  60% {
+    @apply mt-1 opacity-100;
+  }
+
+  100% {
+    @apply mt-2 opacity-0;
+  }
+}

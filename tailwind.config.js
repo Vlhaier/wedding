@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -22,7 +24,6 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       slate: colors.slate,
-      gray: colors.gray,
       zinc: colors.zinc,
       neutral: colors.neutral,
       stone: colors.stone,
@@ -43,6 +44,39 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      gray: {
+        100: '#fdfcfc',
+        200: '#fafafa',
+        300: '#f8f7f7',
+        400: '#f6f5f4',
+        500: '#f3f2f1',
+        600: '#c7c2bd',
+        700: '#9a9189',
+        800: '#686159',
+        900: '#34302d',
+      },
+      green: {
+        100: '#d9eee2',
+        200: '#b3dcc6',
+        300: '#85c3a3',
+        400: '#5ca583',
+        500: '#428a69',
+        600: '#336e54',
+        700: '#2c5946',
+        800: '#27483a',
+        900: '#21392f',
+      },
+      amber: {
+        100: '#edecec',
+        200: '#ebe6e1',
+        300: '#b7a38b',
+        400: '#a37848',
+        500: '#745633',
+        600: '#5c4429',
+        700: '#47341f',
+        800: '#2e2214',
+        900: '#19120b',
+      },
     }),
     columns: {
       auto: 'auto',
@@ -108,6 +142,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      navbar: '340px',
     },
     animation: {
       none: 'none',
@@ -351,33 +386,8 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
-      sans: [
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-        '"Noto Color Emoji"',
-      ],
-      serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-      mono: [
-        'ui-monospace',
-        'SFMono-Regular',
-        'Menlo',
-        'Monaco',
-        'Consolas',
-        '"Liberation Mono"',
-        '"Courier New"',
-        'monospace',
-      ],
+        Butler: ['Butler'],
+        JetBrains: ['JetBrains Mono'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -929,6 +939,7 @@ module.exports = {
     zIndex: {
       auto: 'auto',
       0: '0',
+      1: '1',
       10: '10',
       20: '20',
       30: '30',
@@ -954,5 +965,35 @@ module.exports = {
     'active',
     'disabled',
   ],
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase, config }) {
+        addBase({
+            body: { fontFamily: config('theme.fontFamily.Butler'), fontWeight: config('theme.fontWeight.normal') },
+            h1: {
+                fontSize: config('theme.fontSize.6xl'),
+                fontWeight: config('theme.fontWeight.medium'),
+            },
+            h2: {
+                fontSize: config('theme.fontSize.4xl'),
+                fontWeight: config('theme.fontWeight.normal'),
+            },
+            h3: {
+                fontSize: config('theme.fontSize.3xl'),
+                fontWeight: config('theme.fontWeight.normal'),
+            },
+            h4: {
+                fontSize: config('theme.fontSize.2xl'),
+                fontWeight: config('theme.fontWeight.normal'),
+            },
+            h5: {
+                fontSize: config('theme.fontSize.xl'),
+                fontWeight: config('theme.fontWeight.normal'),
+            },
+            h6: {
+                fontSize: config('theme.fontSize.lg'),
+                fontWeight: config('theme.fontWeight.normal'),
+            },
+        });
+    }),
+  ],
 }

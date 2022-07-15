@@ -1,0 +1,38 @@
+a {
+  @apply outline-none;
+}
+
+.nabvar-link {
+  @apply flex items-center px-2 py-2 text-green-800 rounded-md hover:bg-amber-100 duration-300 ease-in-out;
+  font-size: 0;
+
+  div {
+    @apply inline-flex items-center justify-center p-2 rounded-md;
+  }
+
+  &:not(.active) {
+    div {
+      @apply bg-amber-100;
+    }
+
+    svg {
+      @apply text-green-800;
+    }
+  }
+
+  &.active {
+    @apply bg-amber-200 block;
+
+    div {
+      @apply bg-green-800;
+    }
+
+    svg {
+      @apply text-white;
+    }
+  }
+
+  &:hover div {
+    @apply ring-1 ring-inset ring-green-800 duration-300 ease-in-out;
+  }
+}

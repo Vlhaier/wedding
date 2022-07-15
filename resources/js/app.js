@@ -23,6 +23,7 @@ require('./bootstrap');
  */
 
  require('./html/favicon');
+ require('./html/scroll');
 
 /*
  |--------------------------------------------------------------------------
@@ -34,3 +35,9 @@ require('./bootstrap');
  | or customize the JavaScript scaffolding to fit your unique needs.
  |
  */
+
+new window.Vue({
+    components: {
+        PasswordToggle: require('./components/PasswordToggle').default,
+    },
+}).$mount('#app');

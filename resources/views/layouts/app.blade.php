@@ -9,20 +9,22 @@
         <meta name="keywords" content="Boda, wedding, San Cristóbal de las Casas, Chiapas, noviembre, Katya, Carlos">
         <link rel="icon" type="image/png" href="/images/favicons/favicon-1.png">
 
+        <!-- fonts -->
+        <link href="http://fonts.cdnfonts.com/css/butler" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
         <!-- styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Mulish&family=Poppins:wght@500;600;700&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
     </head>
-    <body class="bg-red-500">
-        <div id="app" class="bg-gray-700">
-            {{-- @include('layouts._navbar') --}}
+    <body class="bg-gray-500 text-amber-500">
+        <div id="app">
 
-            <main class="bg-gray-100 app-container">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil excepturi, quidem officia minima, voluptatum molestias provident optio quaerat ipsum repellendus temporibus totam illum? Accusamus neque alias ad, porro impedit eius!</p>
+            <main class="app-container">
+                @yield('content')
             </main>
 
-            {{-- @include('layouts._footer') --}}
         </div><!-- #app -->
 
         <script src="{{ mix('/js/manifest.js') }}"></script>

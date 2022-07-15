@@ -28,12 +28,13 @@
 /**
   * Styles for support plugins.
   */
+@import "~simplebar/dist/simplebar.min.css";
 
 
 /**
   * Mixins.
   */
-
+@import "mixins/buttons";
 
 /**
   * Styles for support components.
@@ -43,7 +44,12 @@
 /**
   * Custom especific styles.
   */
-
+@import "animations";
+@import "buttons";
+@import "forms";
+@import "links";
+@import "maps";
+@import "navigation";
 
 /**
   * Custom general styles for pages.

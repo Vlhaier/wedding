@@ -1,0 +1,9 @@
+@mixin button($bg, $color, $border, $hover-bg, $hover-color, $hover-border) {
+  transition: all 0.5s;
+  @apply #{$bg} #{$color} border #{$border};
+
+  &:hover {
+    transition: all 0.5s;
+    @apply #{$hover-bg} #{$hover-color} #{$hover-border};
+  }
+}

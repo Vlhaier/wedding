@@ -24,6 +24,7 @@ mix.js('resources/js/app.js', 'public/js')
         'axios',
         'jquery',
         'lodash',
+        'simplebar',
         'vue',
     ]);
 
