@@ -16,7 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
         <!-- styles -->
-        <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     </head>
     <body class="bg-gray-500 text-amber-500">
         <div id="app">
@@ -27,8 +27,8 @@
 
         </div><!-- #app -->
 
-        <script src="{{ mix('/js/manifest.js') }}"></script>
-        <script src="{{ mix('/js/vendor.js') }}"></script>
-        <script src="{{ mix('/js/app.js') }}"></script>
+        <script src="{{ asset('/js/manifest.js') }}"></script>
+        <script src="{{ asset('/js/vendor.js') }}"></script>
+        <script src="{{ asset('/js/app.js') }}"></script>
     </body>
 </html>
