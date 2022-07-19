@@ -24,13 +24,13 @@
             </a>
         </li>
         <li class="first:mt-0 mt-3">
-            <a href="#hotels" data-section="3" class="nabvar-link">
+            <a href="#hotel" data-section="3" class="nabvar-link">
                 <div>
                     <svg class="w-4 h-4" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill="currentColor" d="M6 9.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1Zm12-3h-8v8H2V.5H0v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4Zm2 8h-8v-6h6c1.1 0 2 .9 2 2v4Z"/>
                     </svg>
                 </div>
-                <span class="text-base font-JetBrains font-light ml-3">Hoteles</span>
+                <span class="text-base font-JetBrains font-light ml-3">Hotel</span>
             </a>
         </li>
         <li class="first:mt-0 mt-3">

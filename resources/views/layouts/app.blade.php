@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title>Katya & Carlos &raquo; {{ $title ?? 'Nuestra boda' }}</title>
+        <title>Katya & Carlos &raquo; {{ $title ?? 'Nos casamos' }}</title>
         <meta name="description" content="Sitio de nuestra boda - Katya & Carlos - 26 de Noviembre de 2022">
         <meta name="keywords" content="Boda, wedding, San Cristóbal de las Casas, Chiapas, noviembre, Katya, Carlos">
         <link rel="icon" type="image/png" href="/images/favicons/favicon-1.png">
@@ -18,7 +18,7 @@
         <!-- styles -->
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     </head>
-    <body class="bg-gray-500 text-amber-500">
+    <body class="bg-gray-400 text-amber-500">
         <div id="app">
 
             <main class="app-container">

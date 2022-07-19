@@ -22,6 +22,7 @@ require('./bootstrap');
  |
  */
 
+ require('./html/clipboard');
  require('./html/favicon');
  require('./html/scroll');
 
