@@ -1,7 +1,7 @@
 <nav class="navbar fixed bottom-0 left-0 top-0 bg-white w-navbar py-4 px-4">
     <p class="text-green-800 uppercase font-JetBrains text-sm">Nos casamos</p>
-    <h2 class="text-green-800 mt-2">Katya & Carlos</h2>
-    <ul class="overflow-auto h-screen overflow-y-auto simplebar-custom-vertical pb-32 mt-4" data-simplebar>
+    <h2 class="text-green-800 mt-3">Katya & Carlos</h2>
+    <ul class="overflow-auto h-screen overflow-y-auto simplebar-custom-vertical pb-32 mt-8" data-simplebar>
         <li class="first:mt-0 mt-3">
             <a href="#mass" data-section="1" class="nabvar-link">
                 <div>
@@ -20,7 +20,7 @@
                         <path fill="currentColor" d="m.23 21.27 14-5-9-9-5 14Zm10.35-5.82-7.05 2.52 2.52-7.05 4.53 4.53ZM12.76 11.8l5.59-5.59a1.25 1.25 0 0 1 1.77 0l.59.59 1.06-1.06-.59-.59a2.758 2.758 0 0 0-3.89 0l-5.59 5.59 1.06 1.06ZM8.29 6.15l-.59.59L8.76 7.8l.59-.59a2.758 2.758 0 0 0 0-3.89l-.59-.59L7.7 3.8l.59.59c.48.48.48 1.28 0 1.76ZM15.29 11.15l-1.59 1.59 1.06 1.06 1.59-1.59a1.25 1.25 0 0 1 1.77 0l1.61 1.61 1.06-1.06-1.61-1.61a2.758 2.758 0 0 0-3.89 0ZM13.29 5.15 9.7 8.74l1.06 1.06 3.59-3.59a2.758 2.758 0 0 0 0-3.89L12.76.73 11.7 1.79l1.59 1.59c.48.49.48 1.29 0 1.77Z"/>
                     </svg>
                 </div>
-                <span class="text-base font-JetBrains font-light ml-3">Salón</span>
+                <span class="text-base font-JetBrains font-light ml-3">Recepción</span>
             </a>
         </li>
         <li class="first:mt-0 mt-3">
@@ -55,23 +55,23 @@
             </a>
         </li>
         <li class="first:mt-0 mt-3">
-            <a href="#location" data-section="6" class="nabvar-link">
-                <div>
-                    <svg class="w-4 h-4" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="currentColor" d="M6 0 0 6v10h12V6L6 0Zm4 14H7v-3H5v3H2V6.83l4-4 4 4V14ZM7 9H5V7h2v2Zm9 7V4.35L11.65 0H8.82L14 5.18V16h2Zm4 0V2.69L17.31 0h-2.83L18 3.52V16h2Z"/>
-                    </svg>
-                </div>
-                <span class="text-base font-JetBrains font-light ml-3">Chiapas</span>
-            </a>
-        </li>
-        <li class="first:mt-0 mt-3">
-            <a href="#airport" data-section="7" class="nabvar-link">
+            <a href="#airport" data-section="6" class="nabvar-link">
                 <div>
                     <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill="currentColor" d="M20 14v-2l-8.5-5V1.5C11.5.67 10.83 0 10 0S8.5.67 8.5 1.5V7L0 12v2l8.5-2.5V17L6 18.5V20l4-1 4 1v-1.5L11.5 17v-5.5L20 14Z"/>
                     </svg>
                 </div>
                 <span class="text-base font-JetBrains font-light ml-3">Aeropuerto</span>
+            </a>
+        </li>
+        <li class="first:mt-0 mt-3">
+            <a href="#location" data-section="7" class="nabvar-link">
+                <div>
+                    <svg class="w-4 h-4" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M6 0 0 6v10h12V6L6 0Zm4 14H7v-3H5v3H2V6.83l4-4 4 4V14ZM7 9H5V7h2v2Zm9 7V4.35L11.65 0H8.82L14 5.18V16h2Zm4 0V2.69L17.31 0h-2.83L18 3.52V16h2Z"/>
+                    </svg>
+                </div>
+                <span class="text-base font-JetBrains font-light ml-3">Chiapas</span>
             </a>
         </li>
         <li class="first:mt-0 mt-3">
@@ -85,17 +85,7 @@
             </a>
         </li>
         <li class="first:mt-0 mt-3">
-            <a href="#notes" data-section="9" class="nabvar-link">
-                <div>
-                    <svg class="w-4 h-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                    </svg>
-                </div>
-                <span class="text-base font-JetBrains font-light ml-3">Notas</span>
-            </a>
-        </li>
-        <li class="first:mt-0 mt-3">
-            <a href="#confirm" data-section="10" class="nabvar-link">
+            <a href="#confirm" data-section="9" class="nabvar-link">
                 <div>
                     <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill="currentColor" d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0ZM5.07 16.28c.43-.9 3.05-1.78 4.93-1.78s4.51.88 4.93 1.78A7.893 7.893 0 0 1 10 18c-1.86 0-3.57-.64-4.93-1.72Zm11.29-1.45c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33A7.95 7.95 0 0 1 2 10c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83ZM10 4C8.06 4 6.5 5.56 6.5 7.5S8.06 11 10 11s3.5-1.56 3.5-3.5S11.94 4 10 4Zm0 5c-.83 0-1.5-.67-1.5-1.5S9.17 6 10 6s1.5.67 1.5 1.5S10.83 9 10 9Z"/>
