@@ -1,4 +1,32 @@
+/*
+ |--------------------------------------------------------------------------
+ | MomentJS
+ |--------------------------------------------------------------------------
+ |
+ | A lightweight JavaScript date manipulation library for parsing, validating
+ | and displaying formatted dates on the client-side. Also includes robust
+ | support for i18n with a variety of locale bundles to load and switch.
+ |
+ */
+
+window.moment = require('moment');
+window.moment.locale('es');
+
 window._ = require('lodash');
+
+/*
+ |--------------------------------------------------------------------------
+ | Global jQuery Instance
+ |--------------------------------------------------------------------------
+ |
+ | We'll load jQuery and the Bootstrap jQuery plugin which provides support
+ | for JavaScript based Bootstrap features such as modals and tabs. This
+ | code may be modified to fit the specific needs of your application.
+ |
+ */
+
+window.$ = window.jQuery = require('jquery');
+window.SimpleBar = require('simplebar');
 
 try {
     require('bootstrap');
@@ -30,3 +58,16 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/*
+ |--------------------------------------------------------------------------
+ | SweetAlert
+ |--------------------------------------------------------------------------
+ |
+ | SweetAlert is a beautiful replacement for JavaScript's alerts that makes
+ | popup messages easy and pretty and looks great no matter if you're on
+ | a desktop computer, mobile or tablet. It's even highly customizable
+ |
+ */
+
+window.sweetAlert = require('sweetalert2');

@@ -1,8 +1,57 @@
+@import "tailwindcss/base";
+/**
+  * This injects Tailwind's component classes and any component classes
+  * registered by plugins.
+  */
+@import "tailwindcss/components";
+
+/**
+  * This injects Tailwind's utility classes and any utility classes registered
+  * by plugins.
+  */
+@import "tailwindcss/utilities";
+
+/**
+  * Use this directive to control where Tailwind injects the responsive
+  * variations of each utility.
+  *
+  * If omitted, Tailwind will append these classes to the very end of
+  * your stylesheet by default.
+  */
+@import "tailwindcss/screens";
+
+/**
+  * Styles for support plugins.
+  */
+@import "~simplebar/dist/simplebar.min.css";
+
+
+/**
+  * Mixins.
+  */
+@import "mixins/buttons";
+
+/**
+  * Styles for support components.
+  */
+
+
+/**
+  * Custom especific styles.
+  */
+@import "animations";
+@import "buttons";
+@import "forms";
+@import "links";
+@import "maps";
+@import "navigation";
+
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 
 // Variables
-@import 'variables';
+//@import 'variables';
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//@import '~bootstrap/scss/bootstrap';
