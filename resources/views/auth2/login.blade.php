@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <div class="sm:bg-cover bg-auto bg-no-repeat bg-center h-screen w-full" style="background-image: url('images/bg.png')">
         <div class="container px-5 mx-auto">
             <div class="flex items-center justify-center sm:h-screen sm:relative absolute sm:top-0 top-1/2 sm:translate-y-0 -translate-y-1/2 left-0 right-0">
@@ -8,12 +9,12 @@
                     <div class="w-full">
                         <h1 class="sm:text-6xl text-5xl text-green-800 text-center">Katya & Carlos</h1>
                         <h4 class="text-green-800 text-center mt-4">Acceder a toda la información</h4>
-                        <form action="{{ route('login') }}" method="POST" class="mt-8">
+                        <form action="/login" method="POST" class="mt-8">
                             @csrf
                             <div>
-                                <label class="text-green-800" for="email">Usuario</label>
-                                <input id="email" type="text" name="email" class="block w-full py-3 px-4 mt-2 leading-5 transition duration-150 ease-in-out rounded form-input text-sm bg-amber-100 border border-amber-300 placeholder-amber-400 text-green-700 focus:outline-none focus:border-amber-500 focus:shadow-none" placeholder="Escribe tu usuario" required>
-                                @error('email')
+                                <label class="text-green-800" for="username">Usuario</label>
+                                <input id="username" type="text" name="username" class="block w-full py-3 px-4 mt-2 leading-5 transition duration-150 ease-in-out rounded form-input text-sm bg-amber-100 border border-amber-300 placeholder-amber-400 text-green-700 focus:outline-none focus:border-amber-500 focus:shadow-none" placeholder="Escribe tu usuario" required>
+                                @error('username')
                                     <span class="text-red-500 text-sm">{{ $message }}</span>
                                 @enderror
                             </div>

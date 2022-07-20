@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,4 +14,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'home');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
+
+/*
+|--------------------------------------------------------------------------
+| Login
+|--------------------------------------------------------------------------
+*/
+
+//Auth::routes();
+Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('login', [LoginController::class, 'login']);
+Route::get('logout', [LoginController::class, 'logout'])->name('logout');
+
+
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

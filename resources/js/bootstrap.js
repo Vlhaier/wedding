@@ -1,83 +1,18 @@
-/*
- |--------------------------------------------------------------------------
- | MomentJS
- |--------------------------------------------------------------------------
- |
- | A lightweight JavaScript date manipulation library for parsing, validating
- | and displaying formatted dates on the client-side. Also includes robust
- | support for i18n with a variety of locale bundles to load and switch.
- |
- */
-
-window.moment = require('moment');
-window.moment.locale('es');
-
-/*
- |--------------------------------------------------------------------------
- | Lodash
- |--------------------------------------------------------------------------
- |
- | Lodash is a general purpose library which provides utility functions to
- | solve common programming tasks like manipulating strings, arrays and
- | objects using an elegant syntax while still being very performant.
- |
- */
-
 window._ = require('lodash');
 
-/*
- |--------------------------------------------------------------------------
- | Global jQuery Instance
- |--------------------------------------------------------------------------
- |
- | We'll load jQuery and the Bootstrap jQuery plugin which provides support
- | for JavaScript based Bootstrap features such as modals and tabs. This
- | code may be modified to fit the specific needs of your application.
- |
- */
+try {
+    require('bootstrap');
+} catch (e) {}
 
-window.$ = window.jQuery = require('jquery');
-window.SimpleBar = require('simplebar');
-
-/*
- |--------------------------------------------------------------------------
- | Axios
- |--------------------------------------------------------------------------
- |
- | We'll load the axios HTTP library which allows us to easily issue requests
- | to our Laravel back-end. This library automatically handles sending the
- | CSRF token as a header based on the value of the "XSRF" token cookie.
- |
+/**
+ * We'll load the axios HTTP library which allows us to easily issue requests
+ * to our Laravel back-end. This library automatically handles sending the
+ * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
 window.axios = require('axios');
+
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-
-/*
- |--------------------------------------------------------------------------
- | VueJS
- |--------------------------------------------------------------------------
- |
- | Vue is a modern JavaScript library for building interactive web interfaces
- | using reactive data binding and reusable components. Vue's API is clean
- | and simple, leaving you to focus on building your next great project.
- |
- */
-
-window.Vue = require('vue').default;
-
-/*
- |--------------------------------------------------------------------------
- | SweetAlert
- |--------------------------------------------------------------------------
- |
- | SweetAlert is a beautiful replacement for JavaScript's alerts that makes
- | popup messages easy and pretty and looks great no matter if you're on
- | a desktop computer, mobile or tablet. It's even highly customizable
- |
- */
-
-window.sweetAlert = require('sweetalert2');
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

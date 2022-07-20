@@ -1,5 +1,4 @@
 const mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,24 +11,6 @@ const tailwindcss = require('tailwindcss');
  |
  */
 
-mix.setPublicPath('public_html/');
-
-mix.js('resources/js/app.js', 'js')
+mix.js('resources/js/app.js', 'public/js')
     .vue()
-    .sass('resources/sass/app.scss', 'css')
-    .options({
-        postCss: [ tailwindcss('./tailwind.config.js') ],
-    })
-    .webpackConfig({ devtool: 'source-map' })
-    .sourceMaps()
-    .extract([
-        'axios',
-        'jquery',
-        'lodash',
-        'simplebar',
-        'vue',
-    ]);
-
-if (mix.inProduction()) {
-    mix.version();
-}
+    .sass('resources/sass/app.scss', 'public/css');
