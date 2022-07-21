@@ -83,35 +83,29 @@
 
                             <div class="form-group">
                                 @php
+                                    $dataTypeRows = $dataType->{(isset($dataTypeContent->id) ? 'editRows' : 'addRows' )};
                                     $row = $dataTypeRows->where('field', 'companion')->first();
                                 @endphp
                                 <label class="control-label" for="name">{{ $row->getTranslatedAttribute('display_name') }}</label>
                                 {!! app('voyager')->formField($row, $dataType, $dataTypeContent) !!}
                             </div>
+
                             <div class="form-group">
                                 @php
+                                    $dataTypeRows = $dataType->{(isset($dataTypeContent->id) ? 'editRows' : 'addRows' )};
                                     $row = $dataTypeRows->where('field', 'godfather')->first();
                                 @endphp
                                 <label class="control-label" for="name">{{ $row->getTranslatedAttribute('display_name') }}</label>
                                 {!! app('voyager')->formField($row, $dataType, $dataTypeContent) !!}
                             </div>
 
-                            @php
-                            if (isset($dataTypeContent->locale)) {
-                                $selected_locale = $dataTypeContent->locale;
-                            } else {
-                                $selected_locale = config('app.locale', 'en');
-                            }
-
-                            @endphp
                             <div class="form-group">
-                                <label for="locale">{{ __('voyager::generic.locale') }}</label>
-                                <select class="form-control select2" id="locale" name="locale">
-                                    @foreach (Voyager::getLocales() as $locale)
-                                    <option value="{{ $locale }}"
-                                    {{ ($locale == $selected_locale ? 'selected' : '') }}>{{ $locale }}</option>
-                                    @endforeach
-                                </select>
+                                @php
+                                    $dataTypeRows = $dataType->{(isset($dataTypeContent->id) ? 'editRows' : 'addRows' )};
+                                    $row = $dataTypeRows->where('field', 'attend')->first();
+                                @endphp
+                                <label class="control-label" for="name">{{ $row->getTranslatedAttribute('display_name') }}</label>
+                                {!! app('voyager')->formField($row, $dataType, $dataTypeContent) !!}
                             </div>
 
                         </div>

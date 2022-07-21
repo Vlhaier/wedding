@@ -42,7 +42,7 @@ return [
     */
 
     'models' => [
-       // 'namespace' => 'App\\Models\\',
+       'namespace' => 'App\\Models\\',
     ],
 
     /*
@@ -104,14 +104,14 @@ return [
         /*
          * Select default language
          */
-        'default' => 'en',
+        'default' => 'es',
 
         /*
          * Select languages that are supported.
          */
         'locales' => [
             'en',
-            //'pt',
+            'es',
         ],
     ],
 
@@ -144,7 +144,8 @@ return [
         ],
 
         'widgets' => [
-
+            'App\\Models\\Widgets\\AttendDimmer',
+            'App\\Models\\Widgets\\GodfatherDimmer',
         ],
 
     ],

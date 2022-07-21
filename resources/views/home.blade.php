@@ -317,11 +317,10 @@
                     <h1 class="text-green-800 text-center">Familia Lorem Ipsum</h1>
                     <h2 class="text-center mt-6">Vestimenta formal</h2>
                     <h2 class="text-center">Sin niños</h2>
-                    <h2 class="text-center font-medium mt-6">Pase para <span class="font-JetBrains underline text-green-800 font-bold">2</span> personas</h2>
-                    <div class="flex justify-center mt-10">
-                        <a href="#" class="btn btn-green inline-block px-5 py-2">Confirmar asistencia</a>
-                        <a href="#" class="btn btn-red inline-block px-5 py-2">Cancelar asistencia</a>
-                    </div>
+                    <h2 class="text-center font-medium mt-6">Pase para <span class="font-JetBrains underline text-green-800 font-bold">{{ $user->companion }}</span> personas</h2>
+                    
+                    <confirm-attend :current-user="{{ json_encode(auth()->check() ? auth()->user() : null) }}" />></confirm-attend>
+
                 </div>
             </div>
         </div>

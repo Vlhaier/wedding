@@ -26,6 +26,7 @@ window.Vue = require('vue').default;
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('password-toggle', require('./components/PasswordToggle.vue').default);
+Vue.component('confirm-attend', require('./components/ConfirmAttend.vue').default);
 
 
 /**

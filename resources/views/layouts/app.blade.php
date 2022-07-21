@@ -17,6 +17,14 @@
 
         <!-- styles -->
         <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+
+        <script>
+           window.Laravel = {!! json_encode([
+               'csrfToken' => csrf_token(),
+               'apiToken' => $currentUser->api_token ?? null,
+           ]) !!};
+        </script>
+
     </head>
     <body class="bg-gray-400 text-amber-500">
         <div id="app">
