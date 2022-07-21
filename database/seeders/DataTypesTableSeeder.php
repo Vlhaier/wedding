@@ -24,8 +24,8 @@ class DataTypesTableSeeder extends Seeder
                 'id' => 1,
                 'name' => 'users',
                 'slug' => 'users',
-                'display_name_singular' => 'User',
-                'display_name_plural' => 'Users',
+                'display_name_singular' => 'Usuario',
+                'display_name_plural' => 'Usuarios',
                 'icon' => 'voyager-person',
                 'model_name' => 'App\\Models\\User',
                 'policy_name' => 'TCG\\Voyager\\Policies\\UserPolicy',
@@ -35,7 +35,7 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"desc","default_search_key":null,"scope":null}',
                 'created_at' => '2022-07-19 00:04:52',
-                'updated_at' => '2022-07-19 04:22:19',
+                'updated_at' => '2022-07-20 22:18:48',
             ),
             1 => 
             array (

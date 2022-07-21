@@ -55,17 +55,17 @@ class MenuItemsTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'menu_id' => 1,
-                'title' => 'Users',
+                'title' => 'Usuarios',
                 'url' => '',
                 'target' => '_self',
                 'icon_class' => 'voyager-person',
-                'color' => NULL,
+                'color' => '#000000',
                 'parent_id' => NULL,
                 'order' => 3,
                 'created_at' => '2022-07-19 00:04:53',
-                'updated_at' => '2022-07-19 00:04:53',
+                'updated_at' => '2022-07-20 20:20:51',
                 'route' => 'voyager.users.index',
-                'parameters' => NULL,
+                'parameters' => 'null',
             ),
             3 => 
             array (

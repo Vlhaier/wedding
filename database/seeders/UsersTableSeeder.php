@@ -31,10 +31,12 @@ class UsersTableSeeder extends Seeder
                 'remember_token' => NULL,
                 'settings' => NULL,
                 'created_at' => '2022-07-19 00:32:25',
-                'updated_at' => '2022-07-19 00:32:26',
-                'uuid' => '',
+                'updated_at' => '2022-07-20 22:21:04',
+                'uuid' => '8402e153-54aa-498a-a20a-b0dc9e77f65c',
                 'companion' => 0,
                 'godfather' => 0,
+                'attend' => 0,
+                'deleted_at' => NULL,
             ),
             1 => 
             array (
@@ -48,10 +50,12 @@ class UsersTableSeeder extends Seeder
                 'remember_token' => NULL,
                 'settings' => '{"locale":"en"}',
                 'created_at' => '2022-07-19 00:44:57',
-                'updated_at' => '2022-07-20 00:00:27',
+                'updated_at' => '2022-07-20 20:30:28',
                 'uuid' => '9102e153-54aa-498a-a20a-b0dc9e77f65c',
                 'companion' => 3,
                 'godfather' => 1,
+                'attend' => 1,
+                'deleted_at' => NULL,
             ),
         ));
         

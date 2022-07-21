@@ -25,6 +25,8 @@ class CreateUsersTable extends Migration
             $table->string('uuid')->nullable();
             $table->integer('companion')->default(0);
             $table->boolean('godfather')->default(0);
+            $table->boolean('attend')->default(0);
+            $table->timestamp('deleted_at')->nullable();
         });
     }
 
