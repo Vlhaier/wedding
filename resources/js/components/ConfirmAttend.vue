@@ -1,7 +1,7 @@
 <template>
-    <div class="flex justify-center mt-10">
-        <a href="#" class="btn btn-green inline-block px-5 py-2" @click.prevent="confirm(1)">Confirmar asistencia</a>
-        <a href="#" class="btn btn-red inline-block px-5 py-2" @click.prevent="confirm(0)">Cancelar asistencia</a>
+    <div class="flex justify-center gap-6 mt-4">
+        <a href="#" class="btn btn-green inline-block px-10 py-2" @click.prevent="confirm(1)">Sí asistiré</a>
+        <a href="#" class="btn btn-red inline-block px-5 py-2" @click.prevent="confirm(0)">No podré asistir</a>
     </div>
 </template>
 

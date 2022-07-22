@@ -19,7 +19,7 @@
     @include button("bg-red-500", "text-white", "border-red-500", "bg-red-600", "text-white", "border-red-600");
 
     &.disabled {
-      @apply bg-gray-200 text-gray-400 border-gray-200;
+      @apply bg-red-200 text-red-400 border-red-200 opacity-50;
     }
   }
 
@@ -35,7 +35,7 @@
     @include button("bg-green-800", "text-white", "border-green-800", "bg-green-600", "text-white", "border-green-600");
 
     &.disabled {
-      @apply bg-gray-200 text-gray-400 border-gray-200;
+      @apply bg-green-400 text-green-800 border-green-400 opacity-50;
     }
   }
 

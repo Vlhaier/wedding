@@ -1562,12 +1562,49 @@
             <div id="confirm" data-link="9" class="section container mx-auto relative min-h-screen">
                 <div class="container mx-auto relative min-h-screen px-10 pt-5">
                     <div class="absolute left-1/2 right-auto top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-10 py-20">
-                        <h1 class="text-green-800 text-center">Familia Lorem Ipsum</h1>
-                        <h2 class="text-center mt-6">Vestimenta formal</h2>
-                        <h2 class="text-center">Sin niños</h2>
-                        <h2 class="text-center font-medium mt-6">Pase para <span class="font-JetBrains underline text-green-800 font-bold">{{ $user->companion }}</span> personas</h2>
-
-                        <confirm-attend :current-user="{{ json_encode(auth()->check() ? auth()->user() : null) }}" /></confirm-attend>
+                        <h2 class="text-green-800 text-center">Familia</h2>
+                        <h1 class="text-green-800 text-center -mt-1">Lorem Ipsum</h1>
+                        <div class="bg-white w-3/5 rounded-lg mx-auto py-4 mt-3">
+                            <div class="text-center text-green-800">
+                                <h4>Esperamos verlos en nuestra boda</h4>
+                                <h2 class="text-green-800 -mt-1">Katya & Carlos</h2>
+                            </div>
+                            <div class="mt-2">
+                                <div class="bg-green-300 px-10 py-1">
+                                    <p class="text-white pt-1">Tomar en cuenta esto para tu asistencia</p>
+                                </div>
+                                <div class="grid grid-cols-2 gap-x-6 gap-y-1 px-10 py-4">
+                                    <p class="col-span-1 flex items-center">
+                                        <svg class="w-5" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M19.656 3.5a2.74 2.74 0 0 1 2.75-2.75 2.74 2.74 0 0 1 2.75 2.75 2.74 2.74 0 0 1-2.75 2.75 2.74 2.74 0 0 1-2.75-2.75Zm5.5 24.75V20h3.438L25.1 9.509a2.763 2.763 0 0 0-2.612-1.884h-.165a2.75 2.75 0 0 0-2.613 1.884l-1.182 3.547c1.485.825 2.502 2.379 2.502 4.194v11h4.125ZM14.844 13.812a2.06 2.06 0 0 0 2.062-2.062 2.06 2.06 0 0 0-2.062-2.063 2.06 2.06 0 0 0-2.063 2.063 2.06 2.06 0 0 0 2.063 2.063ZM5.219 6.25a2.74 2.74 0 0 0 2.75-2.75A2.74 2.74 0 0 0 5.219.75a2.74 2.74 0 0 0-2.75 2.75 2.74 2.74 0 0 0 2.75 2.75Zm2.75 22v-9.625h2.062v-8.25a2.758 2.758 0 0 0-2.75-2.75H3.156a2.758 2.758 0 0 0-2.75 2.75v8.25H2.47v9.625h5.5Zm8.937 0v-5.5h1.375v-5.5a2.077 2.077 0 0 0-2.062-2.063h-2.75a2.078 2.078 0 0 0-2.063 2.063v5.5h1.375v5.5h4.125Z"/>
+                                        </svg>
+                                        <span class="text-lg pt-1 ml-3">Sin niños</span>
+                                    </p>
+                                    <p class="col-span-1 flex items-center">
+                                        <svg class="h-5 ml-1" viewBox="0 0 9 23" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M4.5 5.313a2.4 2.4 0 0 0 2.406-2.407A2.4 2.4 0 0 0 4.5.5a2.4 2.4 0 0 0-2.406 2.406A2.4 2.4 0 0 0 4.5 5.312ZM7.25 22.5v-6.875h1.375V9.437a2.758 2.758 0 0 0-2.75-2.75h-2.75a2.758 2.758 0 0 0-2.75 2.75v6.188H1.75V22.5h5.5Z"/>
+                                        </svg>
+                                        <span class="text-lg pt-1 ml-4">Vestimenta formal</span>
+                                    </p>
+                                    <p class="col-span-1 flex items-center">
+                                        <svg class="h-5" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="m.23 21.27 14-5-9-9-5 14Zm10.35-5.82-7.05 2.52 2.52-7.05 4.53 4.53ZM12.76 11.8l5.59-5.59a1.25 1.25 0 0 1 1.77 0l.59.59 1.06-1.06-.59-.59a2.758 2.758 0 0 0-3.89 0l-5.59 5.59 1.06 1.06ZM8.29 6.15l-.59.59L8.76 7.8l.59-.59a2.758 2.758 0 0 0 0-3.89l-.59-.59L7.7 3.8l.59.59c.48.48.48 1.28 0 1.76ZM15.29 11.15l-1.59 1.59 1.06 1.06 1.59-1.59a1.25 1.25 0 0 1 1.77 0l1.61 1.61 1.06-1.06-1.61-1.61a2.758 2.758 0 0 0-3.89 0ZM13.29 5.15 9.7 8.74l1.06 1.06 3.59-3.59a2.758 2.758 0 0 0 0-3.89L12.76.73 11.7 1.79l1.59 1.59c.48.49.48 1.29 0 1.77Z"/>
+                                        </svg>
+                                        <span class="text-lg pt-1 ml-3">Divertirte mucho</span>
+                                    </p>
+                                    <p class="col-span-1 flex items-center">
+                                        <svg class="h-4" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M8.666 5.806 3.8 10.674c-4.565 4.565-4.565 11.962 0 16.527 4.565 4.565 11.962 4.565 16.527 0l8.264-8.264c1.334-1.333 1.334-3.52 0-4.867a3.263 3.263 0 0 0-.536-.44l.536-.536c1.334-1.334 1.334-3.52 0-4.868a3.651 3.651 0 0 0-.742-.564 3.433 3.433 0 0 0-.715-3.808 3.444 3.444 0 0 0-4.4-.385 3.734 3.734 0 0 0-.468-.578c-1.334-1.333-3.52-1.333-4.867 0l-3.452 3.452a3.428 3.428 0 0 0-5.28-.536Zm1.939 1.953a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976L7.21 13.108a4.125 4.125 0 0 1 0 5.83l1.939 1.938a6.88 6.88 0 0 0 1.54-7.37l8.662-8.662a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-6.325 6.325 1.939 1.939 8.264-8.264a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-8.264 8.264 1.939 1.939 6.806-6.806a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-7.782 7.782 1.939 1.939 4.867-4.867a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-8.25 8.264a8.93 8.93 0 0 1-12.636 0 8.93 8.93 0 0 1 0-12.637l4.854-4.867Zm20.02 14.616c0 4.551-3.699 8.25-8.25 8.25v-2.063a6.197 6.197 0 0 0 6.188-6.187h2.062ZM.375 8.625c0-4.551 3.699-8.25 8.25-8.25v2.063a6.197 6.197 0 0 0-6.188 6.187H.376Z"/>
+                                        </svg>
+                                        <span class="text-lg pt-1 ml-3">Aplaudirle a los novios</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="border-t border-amber-500 pt-4 pb-3">
+                                <h3 class="text-center font-medium">Pase para <span class="text-amber-800 text-5xl font-medium px-1">{{ $user->companion }}</span> personas</h3>
+                                <confirm-attend :current-user="{{ json_encode(auth()->check() ? auth()->user() : null) }}" /></confirm-attend>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
