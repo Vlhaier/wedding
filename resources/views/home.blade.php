@@ -86,7 +86,7 @@
             <div id="hotel" data-link="3" class="section container mx-auto relative min-h-screen">
                 <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
                     <div class="flex items-center">
-                        <h2 class="text-5xl text-green-800 font-semibold pt-2">Rocaval</h2>
+                        <h2 class="text-5xl text-green-800 font-semibold pt-2">Hotel Rocaval</h2>
                         <p class="inline-flex items-center bg-yellow-400 rounded px-2 ml-6">
                             <svg class="h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#554716" d="m10 15.77 6.18 3.73-1.64-7.03L20 7.74l-7.19-.61L10 .5 7.19 7.13 0 7.74l5.46 4.73-1.64 7.03L10 15.77Z"/>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="mt-14">
                         <div class="flex items-start border-t border-amber-500 pt-5">
-                            <h2 class="bg-gray-500 pr-7 -mt-12">Más opciones de reservación</h2>
+                            <h3 class="bg-gray-500 pr-7 -mt-11">Más opciones de reservación</h3>
                         </div>
                         <div class="grid grid-cols-3 gap-6 mt-4">
                             <div class="col-span-1">
@@ -214,7 +214,7 @@
                     </div>
                     <div class="mt-14">
                         <div class="flex items-start border-t border-amber-500 pt-5">
-                            <h2 class="bg-gray-500 pr-7 -mt-12">Mapa del hotel</h2>
+                            <h3 class="bg-gray-500 pr-7 -mt-11">Mapa del hotel</h3>
                         </div>
                         <div class="map-party mt-3">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.907166834182!2d-92.65704157778634!3d16.73148318895141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed450b5f91d04f%3A0x4bf35078a8a99aa0!2sMiraval%20Chiapas!5e0!3m2!1ses!2smx!4v1657757195367!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -226,7 +226,7 @@
             <div id="airport" data-link="4" class="section container mx-auto relative min-h-screen">
                 <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
                     <h2 class="text-5xl text-green-800 font-semibold pt-2">Aeropuerto</h2>
-                    <h4 class="mt-6">Sobre tu llegada a Chiapas</h4>
+                    <h3 class="mt-6">Sobre tu llegada a Chiapas</h3>
                     <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">
                         El aeropuerto más cercano a San Cristóbal de las Casas es el Aeropuerto Internacional Ángel Albino Corzo. Para ir a San Cristóbal de las Casas te sugerimos estas opciones y si necesitas más información de transporte puedes
                         <a
@@ -473,7 +473,7 @@
             <div id="taxis" data-link="5" class="section container mx-auto relative min-h-screen">
                 <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
                     <h2 class="text-5xl text-green-800 font-semibold">Taxis</h2>
-                    <h4 class="mt-6">Dentro de San Cristóbal de las Casas</h4>
+                    <h3 class="mt-6">Dentro de San Cristóbal de las Casas</h3>
                     <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">Se recomienda llamar con mucho tiempo de anticipación (<strong class="font-black">15 minutos</strong> de espera aproximadamente). <strong class="font-black">No</strong> cuentan con taxímetros. Dentro de la ciudad cobran un promedio de <strong class="font-black">$50.00 MXN</strong> por viaje.</p>
                     <div class="grid grid-cols-3 gap-7 mt-8">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
@@ -586,7 +586,7 @@
                             </div>
                         </div>
                     </div>
-                    <h4 class="mt-12">De Tuxtla Gutiérrez a San Cristóbal de las Casas</h4>
+                    <h3 class="mt-12">De Tuxtla Gutiérrez a San Cristóbal de las Casas</h3>
                     <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">Los taxis pueden ser colectivos teniendo un costo de <strong class="font-black">$70.00 MXN</strong> por persona. El trayecto es de aproximadamente 1 hora y 35 minutos.</p>
                     <div class="grid grid-cols-3 gap-7 mt-8">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
@@ -639,7 +639,7 @@
                                     <div class="ml-2">
                                         <span class="font-JetBrains uppercase">Ubicación</span>
                                         <p class="font-JetBrains font-medium text-green-800 mt-2">
-                                            Boulevard Antonio Pariente Algarín #551, Los Cafetales, 29030 Tuxtla Gutitrrez, Chis.
+                                            Boulevard Antonio Pariente Algarín #551, Los Cafetales, 29030 Tuxtla Gutiérrez, Chis.
                                         </p>
                                     </div>
                                 </div>
@@ -1104,6 +1104,363 @@
             <div id="location" data-link="7" class="section container mx-auto relative min-h-screen">
                 <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
                     <h2 class="text-5xl text-green-800 font-semibold pt-2">¿Qué hacer en Chiapas?</h2>
+                    <h3 class="mt-6">San Cristóbal de las Casas</h3>
+                    <div class="grid grid-cols-3 gap-7 mt-4">
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Museo del Ámbar</h4>
+                            <img src="/images/locations/place-1.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Calle Diego de Mazariegos S/N, Barrio de la Merced, 29240 San Cristóbal de las Casas, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="http://museodelambardechiapas.org.mx/es/home/"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Casa Na Bolom</h4>
+                            <img src="/images/locations/place-2.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Av. Vicente Guerrero #33, Barrio del Cerrillo, 29220 San Cristóbal de las Casas, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://nabolom.org/museo-na-bolom/"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4 class="truncat">Mercado de dulces</h4>
+                            <img src="/images/locations/place-3.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Av Insurgentes #24, Barrio Santa Lucía, 29250 San Cristóbal de las Casas, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://es.foursquare.com/v/mercado-de-dulces-y-artesan%C3%ADas/4c559c4e4623be9a26c8c3f4"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Mercado de artesanías SD</h4>
+                            <img src="/images/locations/place-4.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Av 20 de Noviembre #36, Barrio de Mexicanos, 29240 San Cristóbal de las Casas, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://www.tripadvisor.com.mx/Attraction_Review-g150802-d10747838-Reviews-Mercado_de_Artesanias_de_Santo_Domingo-San_Cristobal_de_las_Casas_Southern_Mexic.html"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Andador Eclesiastico</h4>
+                            <img src="/images/locations/place-5.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Av 20 de Noviembre #8, Zona Centro, 29218 San Cristóbal de las Casas, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-11">
+                                <div class="flex items-start">
+                                    <a
+                                        href="http://www.turismochiapas.gob.mx/st/andadores-tursticos-de-san-cristbal-de-las-casas"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Andador de Guadalupe</h4>
+                            <img src="/images/locations/place-6.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Real de Guadalupe, Barrio de Guadalupe, 29230 San Cristóbal de las Casas, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://www.mexicodesconocido.com.mx/escapadas/andador-real-de-guadalupe"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="mt-12">Tuxtla Gutiérrez</h3>
+                    <div class="grid grid-cols-3 gap-7 mt-4">
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Parque de la Marimba</h4>
+                            <img src="/images/locations/place-7.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Av Central entre 7 y 8 Poniente S/N, Colonia Centro, 29000 Tuxtla Gutiérrez, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="http://www.turismochiapas.gob.mx/st/parque-de-la-marimba"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Museo Regional de Chiapas</h4>
+                            <img src="/images/locations/place-8.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Calzada de los Hombres Ilustres de la Revolución Mexicana #885, 29000 Tuxtla Gutiérrez, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://www.inah.gob.mx/red-de-museos/236-museo-regional-de-chiapas"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4 class="truncat">ZOOMAT</h4>
+                            <img src="/images/locations/place-9.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Calzada Cerro Hueco s/n, El Zapotal, 29094 Tuxtla Gutiérrez, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-11">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://www.facebook.com/ZoomatOficial/"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="mt-12">Chiapa de Corzo</h3>
+                    <div class="grid grid-cols-3 gap-7 mt-4">
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Plaza Central</h4>
+                            <img src="/images/locations/place-10.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            5 de Febrero, Colonia Centro, 29160 Chiapa de Corzo, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://www.visitmexico.com/chiapas/chiapa-de-corzo/centro-historico"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4>Cañón del Sumidero</h4>
+                            <img src="/images/locations/place-11.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Capitán Vicente López #7, San Jacinto, 29160 Chiapa de Corzo, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="https://www.tripadvisor.com/Attraction_Review-g499408-d1925372-Reviews-Parque_Nacional_Canon_del_Sumidero-Chiapa_de_Corzo_Southern_Mexico.html"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
+                            <h4 class="truncat">Exconvento de S. Domingo</h4>
+                            <img src="/images/locations/place-12.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
+                                    </svg>
+                                    <div class="ml-2">
+                                        <span class="font-JetBrains uppercase">Ubicación</span>
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                            Av Mexicanidad Chiapaneca #10, Colonia Centro, 29160 Chiapa de Corzo, Chis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                                <div class="flex items-start">
+                                    <a
+                                        href="http://sic.gob.mx/ficha.php?table=museo&table_id=860"
+                                        class="btn btn-green stretched-link inline-block px-5 py-2"
+                                        target="_blank"
+                                        rel="nofollow noopener noreferrer"
+                                    >
+                                        Ver detalles
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -1115,8 +1472,8 @@
                             <h4 class="mt-6">Nuestro mayor anhelo es tu presencia; pero, si deseas hacernos un obsequio te sugerimos estas opciones:</h4>
                             <div class="grid grid-cols-3 gap-7 mt-14">
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                                    <h2>Liverpool</h2>
-                                    <img src="/images/brands/liverpool.png" class="w-2/3 h-18 object-contain mx-auto mt-6" alt="Imagen de Liverpool">
+                                    <h3>Liverpool</h3>
+                                    <img src="/images/brands/liverpool.png" class="w-2/3 h-18 object-contain mx-auto mt-4" alt="Imagen de Liverpool">
                                     <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                         <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 20 24" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="currentColor" d="m10.787 21.502-9.79-9.79v2c0 .53.21 1.04.59 1.41l7.79 7.79c.78.78 2.05.78 2.83 0l6.21-6.21c.78-.78.78-2.05 0-2.83l-7.63 7.63Z"/>
@@ -1125,12 +1482,12 @@
                                         </svg>
                                         <div class="ml-2">
                                             <span class="font-JetBrains uppercase">Código de mesa de regalos</span>
-                                            <p class="font-JetBrains text-green-800 text-lg mt-2">50942558</p>
+                                            <p class="font-JetBrains font-medium text-green-800 text-lg mt-2">50942558</p>
                                         </div>
                                     </div>
                                     <div class="flex items-center border-t border-amber-500 pt-5 mt-5">
                                         <a
-                                            href="https://mesaderegalos.liverpool.com.mx/eventodebusqueda#eventnumber"
+                                            href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50942558"
                                             class="btn btn-green stretched-link inline-block px-5 py-2"
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
@@ -1140,15 +1497,15 @@
                                     </div>
                                 </div>
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                                    <h2>Amazon</h2>
-                                    <img src="/images/brands/amazon.png" class="w-2/3 h-18 object-contain mx-auto mt-6" alt="Imagen de Amazon">
+                                    <h3>Amazon</h3>
+                                    <img src="/images/brands/amazon.png" class="w-2/3 h-18 object-contain mx-auto mt-4" alt="Imagen de Amazon">
                                     <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                         <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                                         </svg>
                                         <div class="ml-2">
                                             <span class="font-JetBrains uppercase">Búsqueda de mesa de regalos</span>
-                                            <p class="font-JetBrains text-green-800 text-lg mt-2">Katya Carlos</p>
+                                            <p class="font-JetBrains font-medium text-green-800 text-lg mt-2">Katya Carlos</p>
                                         </div>
                                     </div>
                                     <div class="flex items-center border-t border-amber-500 pt-5 mt-5">
@@ -1163,8 +1520,8 @@
                                     </div>
                                 </div>
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                                    <h2>Transferencia</h2>
-                                    <img src="/images/brands/banamex.png" class="w-2/3 h-18 object-contain mx-auto mt-6" alt="Imagen de Citibanamex">
+                                    <h3>Transferencia</h3>
+                                    <img src="/images/brands/banamex.png" class="w-2/3 h-18 object-contain mx-auto mt-4" alt="Imagen de Citibanamex">
                                     <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                         <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
@@ -1172,7 +1529,7 @@
                                         <div class="w-full ml-2">
                                             <span class="font-JetBrains uppercase">CLABE Interbancaria</span>
                                             <div class="w-full relative">
-                                                <p class="clipboard-content font-JetBrains text-green-800 text-lg mt-2">002180902254138854</p>
+                                                <p class="clipboard-content font-JetBrains font-medium text-green-800 text-lg mt-2">002180902254138854</p>
                                                 <a href="#" class="clipboard-copy absolute right-0 top-0 block">
                                                     <abbr class="clipboard-defult" title="Copiar">
                                                         <svg class="text-amber-500 hover:scale-110 duration-300 ease-in-out flex-shrink-0 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -1193,8 +1550,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-green-800 font-JetBrains mt-6">Citibanamex</p>
-                                    <p class="text-green-800 font-JetBrains mt-1">Carlos Armando Hernández Anza</p>
+                                    <p class="text-green-800 font-JetBrains font-medium mt-6">Citibanamex</p>
+                                    <p class="text-green-800 font-JetBrains font-medium mt-1">Carlos Armando Hernández Anza</p>
                                 </div>
                             </div>
                         </div>
