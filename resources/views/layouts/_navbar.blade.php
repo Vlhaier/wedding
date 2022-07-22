@@ -34,7 +34,17 @@
             </a>
         </li>
         <li class="first:mt-0 mt-3">
-            <a href="#taxis" data-section="4" class="nabvar-link">
+            <a href="#airport" data-section="4" class="nabvar-link">
+                <div>
+                    <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor" d="M20 14v-2l-8.5-5V1.5C11.5.67 10.83 0 10 0S8.5.67 8.5 1.5V7L0 12v2l8.5-2.5V17L6 18.5V20l4-1 4 1v-1.5L11.5 17v-5.5L20 14Z"/>
+                    </svg>
+                </div>
+                <span class="text-base font-JetBrains font-light ml-3">Aeropuerto</span>
+            </a>
+        </li>
+        <li class="first:mt-0 mt-3">
+            <a href="#taxis" data-section="5" class="nabvar-link">
                 <div>
                     <svg class="w-4 h-4" viewBox="0 0 18 18" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill="currentColor" d="M15.92 3.01C15.72 2.42 15.16 2 14.5 2H12V0H6v2H3.5c-.66 0-1.21.42-1.42 1.01L0 9v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1V9l-2.08-5.99ZM3.85 4h10.29l1.04 3H2.81l1.04-3ZM16 14H2V9.34L2.12 9h13.77l.11.34V14Z"/>
@@ -45,23 +55,13 @@
             </a>
         </li>
         <li class="first:mt-0 mt-3">
-            <a href="#restaurants" data-section="5" class="nabvar-link">
+            <a href="#restaurants" data-section="6" class="nabvar-link">
                 <div>
                     <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill="currentColor" d="m5.8 11.128 2.83-2.83-7.02-7.01a4.008 4.008 0 0 0 0 5.66l4.19 4.18Zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27l-9.76 9.76 1.41 1.41 6.89-6.87 6.88 6.88 1.41-1.41-6.88-6.88 1.47-1.47Z"/>
                     </svg>
                 </div>
                 <span class="text-base font-JetBrains font-light ml-3">Restaurantes</span>
-            </a>
-        </li>
-        <li class="first:mt-0 mt-3">
-            <a href="#airport" data-section="6" class="nabvar-link">
-                <div>
-                    <svg class="w-4 h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="currentColor" d="M20 14v-2l-8.5-5V1.5C11.5.67 10.83 0 10 0S8.5.67 8.5 1.5V7L0 12v2l8.5-2.5V17L6 18.5V20l4-1 4 1v-1.5L11.5 17v-5.5L20 14Z"/>
-                    </svg>
-                </div>
-                <span class="text-base font-JetBrains font-light ml-3">Aeropuerto</span>
             </a>
         </li>
         <li class="first:mt-0 mt-3">

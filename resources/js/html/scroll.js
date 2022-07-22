@@ -1,4 +1,4 @@
-require('jquery-scrollify');
+const ScrollMagic = require('scrollmagic');
 
 /*
  |--------------------------------------------------------------------------
@@ -10,41 +10,40 @@ $(function () {
     'use strict';
 
     /**
-     * Scrollify
-     * @link https://github.com/lukehaas/Scrollify
+     * ScrollMagic
+     * @link hhttps://github.com/janpaepke/ScrollMagic
      */
-    // Available one scroll page in the home view.
-    let scroll = (_) => {
-        if(screen.width >= 768) {
-            $.scrollify.enable();
-
-            $.scrollify({
-                section: '.section',
-                sectionName: false,
-                standardScrollElements: '.navbar',
-                before: function() {
-                    $('.nabvar-link').removeClass('active');
-
-                    let link = $.scrollify.current()[0].attributes['data-link'].value;
-                    $('a[data-section="' + link + '"]').addClass('active');
-                },
-            });
-        } else {
-            $.scrollify.disable();
-        }
-    }
-
-    scroll();
-
-    $(window).resize(function() {
-        scroll();
-    });
-
     // Link click available to go section.
     $('.nabvar-link').on('click', e => {
         e.preventDefault();
 
-        let section = parseInt($(e.currentTarget).attr('data-section'));
-        $.scrollify.move(section);
+        let section = $(e.currentTarget).attr('href');
+        console.log(section);
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 5
+        }, 500);
     });
+
+    // Available active link.
+    let controller = new ScrollMagic.Controller();
+
+    if ($('.section').length) {
+        $('.section').each(function () {
+            let triggerElement = this;
+
+            new ScrollMagic
+                .Scene({
+                    triggerElement,
+                    triggerHook: 0.3
+                })
+                .setClassToggle(triggerElement, 'active')
+                .on('enter leave', function() {
+                    let link = $('.section.active').last().attr('id');
+
+                    $('.nabvar-link').removeClass('active');
+                    $('a[href="#' + link + '"]').addClass('active');
+                })
+                .addTo(controller);
+        });
+    }
 });
