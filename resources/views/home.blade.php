@@ -55,7 +55,7 @@
             </div>
 
             <div id="party" data-link="2" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-32">
+                <div class="container mx-auto relative h-full px-10 pt-5 pb-28">
                     <h2 class="text-5xl text-green-800 font-semibold">Recepción</h2>
                     <div class="grid grid-cols-12 mt-6">
                         <div class="col-span-4">
@@ -67,11 +67,13 @@
                             <h2 class="text-5xl font-normal mt-3">Salón Miraval en San Cristóbal de las Casas, Chiapas</h2>
                         </div>
                     </div>
-                    <img src="/images/party.png" class="absolute bottom-0 right-0 h-80 mb-20" alt="Imagen de la Catedral de San Crsitóbal de las Casas">
+                    <img src="/images/party.png" class="absolute bottom-0 right-0 h-80 mb-52" alt="Imagen de la Catedral de San Crsitóbal de las Casas">
+                    <p class="font-JetBrains text-green-800 uppercase font-medium mt-6">El Salón Miraval cuenta con una de las mejores vistas de la ciudad, por lo que una Urvan estará saliendo cada 4 min de la explanada del Hotel Rocaval para que puedas acceder al salón y no tengas que subir caminando. Si llevas tu coche deberá quedar en el estacionamiento del hotel.</p>
                     <p class="text-lg mt-5">Mapa del lugar</p>
                     <div class="map-mass font-thin mt-3">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.907166834182!2d-92.65704157778634!3d16.73148318895141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed450b5f91d04f%3A0x4bf35078a8a99aa0!2sMiraval%20Chiapas!5e0!3m2!1ses!2smx!4v1657757195367!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <p class="mt-5">México #5, Barrio de Fátima, 29264 San Cristóbal de las Casas, Chis.</p>
                     <a
                         href="https://www.google.com/maps/dir//Miraval+Chiapas+M%C3%A9xico+%235+Barrio+de+Fatima+29264+San+Crist%C3%B3bal+de+las+Casas,+Chis./@16.7314781,-92.6525569,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x85ed450b5f91d04f:0x4bf35078a8a99aa0"
                         class="btn btn-green inline-block px-4 py-2 mt-8"
@@ -104,12 +106,23 @@
                         </svg>
                         <div class="ml-2">
                             <span class="font-JetBrains uppercase">Descripción</span>
-                            <p class="font-JetBrains font-medium text-green-800 uppercase mt-2">Puedes hospedarte en el hotel Rocaval que se encuentra en la misma ubicación del salón Miraval</p>
+                            <p class="font-JetBrains font-medium text-green-800 uppercase mt-2">El Salón se encuentra dentro del recinto de este hotel, esta podría ser la mejor opción pensando en tu comodidad para el regreso de la fiesta a tu hospedaje. Aprovecha la tarifa especial.</p>
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-6 mt-5">
                         <div class="col-span-1">
                             <div class="flex items-start">
+                                <svg class="text-amber-500 flex-shrink-0 w-4 pt-2" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="currentColor" d="M6 9.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1Zm12-3h-8v8H2V.5H0v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4Zm2 8h-8v-6h6c1.1 0 2 .9 2 2v4Z"/>
+                                </svg>
+                                <div class="ml-2">
+                                    <span class="font-JetBrains uppercase">¿Qué incluye?</span>
+                                    <p class="font-JetBrains font-medium text-green-800 text-lg uppercase mt-2">Habitación estándar sencilla o doble</p>
+                                    <p class="font-JetBrains font-medium text-green-800 mt-1">* Puedes preguntar por la Junior Suite</p>
+                                    <p class="font-JetBrains font-medium text-green-800 mt-2">* El hotel incluye estacionamiento</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start mt-5">
                                 <svg class="text-amber-500 flex-shrink-0 h-5 pt-1" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                                     <path fill="currentColor" d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0Zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8Zm.89-8.9c-1.78-.59-2.64-.96-2.64-1.9 0-1.02 1.11-1.39 1.81-1.39 1.31 0 1.79.99 1.9 1.34l1.58-.67c-.15-.44-.82-1.91-2.66-2.23V3H9.13v1.26c-2.6.56-2.62 2.85-2.62 2.96 0 2.27 2.25 2.91 3.35 3.31 1.58.56 2.28 1.07 2.28 2.03 0 1.13-1.05 1.61-1.98 1.61-1.82 0-2.34-1.87-2.4-2.09l-1.66.67c.63 2.19 2.28 2.78 3.02 2.96V17h1.75v-1.24c.52-.09 3.02-.59 3.02-3.22.01-1.39-.6-2.61-3-3.44Z"/>
                                 </svg>
@@ -127,17 +140,6 @@
                                 <div class="ml-2">
                                     <span class="font-JetBrains uppercase">ID de descuento</span>
                                     <p class="font-JetBrains font-medium text-green-800 text-lg mt-2">Carlos & Katya</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start mt-5">
-                                <svg class="text-amber-500 flex-shrink-0 w-4 pt-2" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill="currentColor" d="M6 9.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1Zm12-3h-8v8H2V.5H0v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4Zm2 8h-8v-6h6c1.1 0 2 .9 2 2v4Z"/>
-                                </svg>
-                                <div class="ml-2">
-                                    <span class="font-JetBrains uppercase">¿Qué incluye?</span>
-                                    <p class="font-JetBrains font-medium text-green-800 text-lg uppercase mt-2">Habitación estándar sencilla o doble</p>
-                                    <p class="font-JetBrains font-medium text-green-800 mt-2">* Disponible del 23 al 29 Noviembre 2022</p>
-                                    <p class="font-JetBrains font-medium text-green-800 mt-1">* Pregunta por la Junior Suite</p>
                                 </div>
                             </div>
                         </div>
@@ -217,8 +219,9 @@
                             <h3 class="bg-gray-500 pr-7 -mt-11">Mapa del hotel</h3>
                         </div>
                         <div class="map-party mt-3">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.907166834182!2d-92.65704157778634!3d16.73148318895141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed450b5f91d04f%3A0x4bf35078a8a99aa0!2sMiraval%20Chiapas!5e0!3m2!1ses!2smx!4v1657757195367!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.8958172287753!2d-92.65479868542732!3d16.73204932577838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed459f42fe3553%3A0xbf248228ff13ad37!2sHotel%20Rocaval!5e0!3m2!1ses!2smx!4v1658544955171!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
+                        <p class="mt-5">México #5, Barrio de Fátima, 29264 San Cristóbal de las Casas, Chis.</p>
                     </div>
                 </div>
             </div>
@@ -1469,7 +1472,7 @@
                     <div class="absolute left-1/2 right-auto top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-10">
                         <div>
                             <h2 class="text-5xl text-green-800 font-semibold">Mesa de regalos</h2>
-                            <h4 class="mt-6">Nuestro mayor anhelo es tu presencia; pero, si deseas hacernos un obsequio te sugerimos estas opciones:</h4>
+                            <h4 class="mt-6">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
                             <div class="grid grid-cols-3 gap-7 mt-14">
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                                     <h3>Liverpool</h3>
