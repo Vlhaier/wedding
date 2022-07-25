@@ -1488,11 +1488,13 @@
                     <div class="xl:absolute xl:left-1/2 xl:right-auto xl:top-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 w-full xl:px-10">
                         <div>
                             <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Mesa de regalos</h2>
-                            @if($user->godfather == 0)
-                                <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
-                            @else
+
+                            @if($user->godfather)
                                 <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Estamos muy agradecidos con tu apadrinamiento y el apoyo que nos has brindado es mucho más que suficiente, pero si quieres tener un detalle con nostros te compartimos algunas opciones:</h4>
+                            @else
+                                <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
                             @endif
+
                             <div class="slider-home grid grid-cols-3 gap-6 xl:mt-14 mt-4 xl:mx-0 md:-mx-2">
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                                     <h3>Liverpool</h3>
@@ -1625,7 +1627,9 @@
                             </div>
                             <div class="border-t border-amber-500 pt-4 pb-3">
                                 <h3 class="sm:text-3xl text-2xl text-center font-medium">Pase para <span class="text-amber-800 sm:text-5xl text-4xl font-medium px-1">{{ $user->companion }}</span> personas</h3>
+
                                 <confirm-attend :current-user="{{ json_encode(auth()->check() ? auth()->user() : null) }}" /></confirm-attend>
+
                             </div>
                         </div>
                     </div>
