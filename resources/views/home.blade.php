@@ -1488,7 +1488,11 @@
                     <div class="xl:absolute xl:left-1/2 xl:right-auto xl:top-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 w-full xl:px-10">
                         <div>
                             <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Mesa de regalos</h2>
-                            <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
+                            @if($user->godfather == 0)
+                                <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
+                            @else
+                                <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Estamos muy agradecidos con tu apadrinamiento y el apoyo que nos has brindado es mucho más que suficiente, pero si quieres tener un detalle con nostros te compartimos algunas opciones:</h4>
+                            @endif
                             <div class="slider-home grid grid-cols-3 gap-6 xl:mt-14 mt-4 xl:mx-0 md:-mx-2">
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                                     <h3>Liverpool</h3>
@@ -1582,7 +1586,7 @@
                 <div class="container mx-auto relative min-h-screen sm:px-10 px-4 pt-5">
                     <div class="xl:absolute xl:left-1/2 xl:right-auto xl:top-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 w-full xl:px-10 xl:py-20 pb-10">
                         <h2 class="sm:text-4xl text-3xl text-green-800 text-center sm:mt-0 mt-8">Familia</h2>
-                        <h1 class="xl:text-6xl sm:text-5xl text-4xl text-green-800 text-center md:mt-3">Lorem Ipsum</h1>
+                        <h1 class="xl:text-6xl sm:text-5xl text-4xl text-green-800 text-center md:mt-3">{{ $user->name }}</h1>
                         <div class="bg-white xl:w-3/5 lg:w-4/5 md:w-5/6 sm:w-11/12 w-full rounded-lg mx-auto py-4 md:mt-6 mt-3">
                             <div class="text-center text-green-800">
                                 <h4 class="sm:text-2xl text-xl">Esperamos verlos en nuestra boda</h4>
