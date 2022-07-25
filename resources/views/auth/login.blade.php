@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="sm:bg-cover bg-auto bg-no-repeat bg-center h-screen w-full" style="background-image: url('images/bg.png')">
+    <div class="sm:bg-cover bg-auto bg-no-repeat bg-left-top h-screen w-full" style="background-image: url('images/bg.png')">
         <div class="container px-5 mx-auto">
             <div class="flex items-center justify-center sm:h-screen sm:relative absolute sm:top-0 top-1/2 sm:translate-y-0 -translate-y-1/2 left-0 right-0">
-                <div class="lg:w-1/2 md:w-2/3 bg-white -my-6 xl:px-24 lg:px-18 md:px-8 sm:px-14 px-5 md:mx-0 -mx-5 lg:py-32 md:py-14 sm:py-10 py-6 md:h-full md:flex md:items-center">
+                <div class="2xl:w-2/5 xl:w-1/2 lg:w-7/12 md:w-2/3 bg-white md:rounded-none rounded-lg -my-6 xl:px-24 lg:px-18 md:px-8 sm:px-14 px-5 md:mx-0 -mx-5 lg:py-32 md:py-14 sm:py-10 py-6 md:h-full md:flex md:items-center">
                     <div class="w-full">
                         <h1 class="sm:text-6xl text-5xl text-green-800 text-center">Katya & Carlos</h1>
                         <h4 class="text-green-800 text-center mt-4">Acceder a toda la información</h4>

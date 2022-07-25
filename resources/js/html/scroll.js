@@ -17,10 +17,19 @@ $(function () {
     $('.nabvar-link').on('click', e => {
         e.preventDefault();
 
-        let section = $(e.currentTarget).attr('href');
-        console.log(section);
+        let section = $(e.currentTarget).attr('href'),
+            top = 0;
+
+            if (screen.width >= 1280) {
+                top = 5;
+            } else if (screen.width <= 1279 && screen.width >= 639) {
+                top = 0;
+            } else {
+                top = 52;
+            }
+
         $('html, body').animate({
-            scrollTop: $(section).offset().top - 5
+            scrollTop: $(section).offset().top - top
         }, 500);
     });
 
@@ -46,4 +55,12 @@ $(function () {
                 .addTo(controller);
         });
     }
+
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+    window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
 });

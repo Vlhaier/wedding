@@ -1,13 +1,31 @@
 a {
-  @apply outline-none;
+  &,
+  &:focus,
+  &:hover,
+  &:active,
+  &:visited {
+    @apply outline-none;
+  }
 }
 
 .nabvar-link {
-  @apply flex items-center px-2 py-2 text-green-800 rounded-md hover:bg-amber-100 duration-300 ease-in-out;
+  @apply flex items-center px-1 py-2 mx-px text-green-800 rounded-md duration-300 ease-in-out;
   font-size: 0;
+  @screen sm {
+    @apply px-2 mx-0;
+  }
+  @screen lg {
+    @apply hover:bg-amber-100;
+  }
 
   div {
     @apply inline-flex items-center justify-center p-2 rounded-md;
+    @screen sm {
+      @apply p-3;
+    }
+    @screen lg {
+      @apply p-2;
+    }
   }
 
   &:not(.active) {
@@ -21,7 +39,10 @@ a {
   }
 
   &.active {
-    @apply bg-amber-200 block;
+    @apply block;
+    @screen lg {
+      @apply bg-amber-200;
+    }
 
     div {
       @apply bg-green-800;
@@ -33,7 +54,9 @@ a {
   }
 
   &:hover div {
-    @apply ring-1 ring-inset ring-green-800 duration-300 ease-in-out;
+    @screen md {
+      @apply ring-1 ring-inset ring-green-800 duration-300 ease-in-out;
+    }
   }
 }
 

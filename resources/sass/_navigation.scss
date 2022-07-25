@@ -18,10 +18,48 @@
   }
 }
 
+.simplebar-horizontal .simplebar-scrollbar::before {
+  @apply h-1 #{!important};
+}
+
+.simplebar-custom-horizontal {
+  .simplebar-wrapper,
+  .simplebar-content-wrapper {
+    @apply pb-0.5 #{!important};
+    @screen sm {
+      @apply pb-0 #{!important};
+    }
+  }
+}
+
+.simplebar-custom-horizontal .simplebar-horizontal {
+  @apply -mb-1;
+}
+
 .home-dotted {
-  height: calc(50vh - 260px);
+  height: calc(50vh - 280px);
+  @screen sm {
+    height: calc(50vh - 260px);
+  }
 }
 
 .section-overflow {
   min-height: 600px;
+}
+
+.navbar-title {
+  small {
+    vertical-align: -10px;
+  }
+
+  span {
+    vertical-align: -30px;
+  }
+}
+
+.simplebar-content {
+  @apply flex items-center;
+  @screen sm {
+    @apply block;
+  }
 }

@@ -1,0 +1,41 @@
+.slick-slide {
+  @apply mx-2 py-0;
+}
+
+.slick-dots {
+  @apply absolute bottom-0 -mb-10 flex justify-center w-full;
+
+  li button {
+    font-size: 0;
+    @apply rounded-full bg-green-800 h-3 w-3 mx-2;
+
+    &:focus,
+    &:active {
+      @apply outline-none;
+    }
+  }
+
+  li:not(.slick-active) button {
+    @apply opacity-40;
+  }
+}
+
+[class^="slider-"],
+[class*=" slider-"] {
+  transition: opacity 0.3s ease;
+  @apply opacity-0 invisible;
+  @screen xl {
+    @apply opacity-100 visible;
+  }
+
+  &.slick-initialized {
+    @apply opacity-100 visible;
+  }
+}
+
+.slider-home .slick-slide {
+  @apply w-80;
+  @screen md {
+    @apply w-auto
+  }
+}

@@ -4,17 +4,17 @@
 
     @include('layouts._navbar')
 
-    <div class="ml-navbar">
-        <div class="fixed bottom-0 left-0 right-0 top-0 ml-navbar sm:bg-40% bg-auto bg-no-repeat bg-right-custom h-screen w-full" style="background-image: url('images/bg-1.png')"></div>
+    <div class="xl:ml-navbar lg:ml-navbar-lg sm:ml-17 sm:mt-0 mt-14">
+        <div class="fixed bottom-0 left-0 right-0 top-0 xl:ml-navbar lg:ml-navbar-lg sm:ml-17 sm:mt-0 mt-14 sm:bg-40% bg-contain bg-no-repeat xl:bg-right-custom lg:bg-right-custom-lg sm:bg-right-custom-md bg-right h-screen w-full" style="background-image: url('images/bg-1.png')"></div>
         <div class="w-full">
-            <div id="home" data-link="0" class="section container mx-auto relative min-h-screen bg-gray-500 sm:bg-contain bg-auto bg-no-repeat bg-center" style="background-image: url('images/bg.png')">
-                <div class="absolute top-1/2 left-0 right-0 transform -translate-y-1/2">
-                    <h2 class="text-green-800 text-center">Te invitamos a nuestra boda</h2>
-                    <h1 class="sm:text-8xl text-5xl text-green-800 text-center mt-4">Katya & Carlos</h1>
-                    <h2 class="text-center font-medium mt-2">Sábado,</h2>
-                    <h2 class="text-center -mt-3">26 de Noviembre 2022</h2>
+            <div id="home" data-link="0" class="section container mx-auto relative sm:min-h-screen min-h-mobile bg-gray-500 sm:bg-contain bg-cover bg-no-repeat bg-center" style="background-image: url('images/bg.png')">
+                <div class="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 sm:mt-0 -mt-12">
+                    <h2 class="sm:text-4xl text-3xl text-green-800 text-center">Te invitamos a nuestra boda</h2>
+                    <h1 class="xl:text-8xl sm:text-7xl text-5xl text-green-800 text-center mt-4">Katya & Carlos</h1>
+                    <h2 class="sm:text-4xl text-3xl text-center font-medium mt-2">Sábado,</h2>
+                    <h2 class="sm:text-4xl text-3xl text-center -mt-1">26 de Noviembre 2022</h2>
                 </div>
-                <div class="inline-flex flex-col justify-center items-center absolute bottom-0 left-1/2 transform -translate-x-1/2">
+                <div class="inline-flex flex-col justify-center items-center absolute bottom-0 left-1/2 transform -translate-x-1/2 sm:pb-0 pb-16">
                     <div class="home-dotted border-l border-amber-500 border-dotted"></div>
                     <div class="flex items-center justify-center border border-amber-500 text-amber-500 rounded-full w-10 h-10">
                         <svg class="w-3 home-arrow" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,26 +26,27 @@
             </div>
 
             <div id="mass" data-link="1" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-32">
-                    <h2 class="text-5xl text-green-800 font-semibold">Celebración religiosa</h2>
-                    <div class="grid grid-cols-12 mt-6">
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 xl:pb-32 md:pb-20 pb-14">
+                    <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Celebración religiosa</h2>
+                    <div class="md:grid grid-cols-12 sm:mt-6 mt-3">
                         <div class="col-span-4">
                             <p class="text-xl">Hora de la ceremonia</p>
-                            <h2 class="text-5xl font-medium mt-3">5:00 PM</h2>
+                            <h2 class="xl:text-5xl sm:text-4xl text-3xl font-medium sm:mt-3 mt-1">5:00 PM</h2>
                         </div>
-                        <div class="col-span-8">
+                        <div class="col-span-8 md:mt-0 sm:mt-5 mt-3">
                             <p class="text-xl">Lugar de la ceremonia</p>
-                            <h2 class="text-5xl font-normal mt-3">Catedral de San Cristóbal de las Casas, Chiapas</h2>
+                            <h2 class="xl:text-5xl sm:text-4xl text-3xl font-normal sm:mt-3 mt-1">Catedral de San Cristóbal de las Casas, Chiapas</h2>
                         </div>
                     </div>
-                    <img src="/images/mass.png" class="absolute bottom-0 right-0 h-80 mb-20" alt="Imagen de la Catedral de San Crsitóbal de las Casas">
-                    <p class="text-lg mt-5">Mapa del lugar</p>
-                    <div class="map-mass font-thin mt-3">
+                    <img src="/images/mass.png" class="xl:block hidden absolute bottom-0 right-0 h-80 mb-32" alt="Imagen de la Catedral de San Crsitóbal de las Casas">
+                    <p class="text-lg sm:mt-5 mt-3">Mapa del lugar</p>
+                    <div class="map-mass font-thin sm:mt-3 mt-2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1910.392429476662!2d-92.63886834421237!3d16.737583125625775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed453df3525fdb%3A0x6b2596848ccc3f87!2sCatedral%20de%20San%20Crist%C3%B3bal%20de%20las%20Casas!5e0!3m2!1ses!2smx!4v1657755859599!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <p class="sm:mt-5 mt-3">Plaza 31 de Marzo Norte #3, Centro, 29200 San Cristóbal de las Casas, Chis.</p>
                     <a
                         href="https://www.google.com/maps/dir//Catedral+de+San+Crist%C3%B3bal+de+las+Casas+Plaza+31+de+Marzo+Norte+No.+3+Centro+29200+San+Crist%C3%B3bal+de+las+Casas,+Chis./@16.7376572,-92.6727937,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x85ed453df3525fdb:0x6b2596848ccc3f87!2m2!1d-92.637774!2d16.737578!3e0"
-                        class="btn btn-green inline-block px-4 py-2 mt-8"
+                        class="btn btn-green inline-block px-4 py-2 sm:mt-8 mt-3"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                     >
@@ -55,28 +56,28 @@
             </div>
 
             <div id="party" data-link="2" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-28">
-                    <h2 class="text-5xl text-green-800 font-semibold">Recepción</h2>
-                    <div class="grid grid-cols-12 mt-6">
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 xl:pb-28 md:pb-20 pb-14">
+                    <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Recepción</h2>
+                    <div class="md:grid grid-cols-12 sm:mt-6 mt-3">
                         <div class="col-span-4">
                             <p class="text-xl">Hora del evento</p>
-                            <h2 class="text-5xl font-medium mt-3">7:00 PM</h2>
+                            <h2 class="xl:text-5xl sm:text-4xl text-3xl font-medium sm:mt-3 mt-1">7:00 PM</h2>
                         </div>
-                        <div class="col-span-8">
+                        <div class="col-span-8 md:mt-0 sm:mt-5 mt-3">
                             <p class="text-xl">Lugar del evento</p>
-                            <h2 class="text-5xl font-normal mt-3">Salón Miraval en San Cristóbal de las Casas, Chiapas</h2>
+                            <h2 class="xl:text-5xl sm:text-4xl text-3xl font-normal sm:mt-3 mt-1">Salón Miraval en San Cristóbal de las Casas, Chiapas</h2>
                         </div>
                     </div>
-                    <img src="/images/party.png" class="absolute bottom-0 right-0 h-80 mb-52" alt="Imagen de la Catedral de San Crsitóbal de las Casas">
-                    <p class="font-JetBrains text-green-800 uppercase font-medium mt-6">El Salón Miraval cuenta con una de las mejores vistas de la ciudad, por lo que una Urvan estará saliendo cada 4 min de la explanada del Hotel Rocaval para que puedas acceder al salón y no tengas que subir caminando. Si llevas tu coche deberá quedar en el estacionamiento del hotel.</p>
-                    <p class="text-lg mt-5">Mapa del lugar</p>
-                    <div class="map-mass font-thin mt-3">
+                    <img src="/images/party.png" class="xl:block hidden absolute bottom-0 right-0 h-80 mb-52" alt="Imagen de la Catedral de San Crsitóbal de las Casas">
+                    <p class="font-JetBrains text-green-800 uppercase font-medium sm:text-base text-sm sm:mt-6 mt-3">El Salón Miraval cuenta con una de las mejores vistas de la ciudad, por lo que una Urvan estará saliendo cada 4 min de la explanada del Hotel Rocaval para que puedas acceder al salón y no tengas que subir caminando. Si llevas tu coche deberá quedar en el estacionamiento del hotel.</p>
+                    <p class="text-lg sm:mt-5 mt-3">Mapa del lugar</p>
+                    <div class="map-mass font-thin sm:mt-3 mt-2">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.907166834182!2d-92.65704157778634!3d16.73148318895141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed450b5f91d04f%3A0x4bf35078a8a99aa0!2sMiraval%20Chiapas!5e0!3m2!1ses!2smx!4v1657757195367!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <p class="mt-5">México #5, Barrio de Fátima, 29264 San Cristóbal de las Casas, Chis.</p>
+                    <p class="sm:mt-5 mt-3">México #5, Barrio de Fátima, 29264 San Cristóbal de las Casas, Chis.</p>
                     <a
                         href="https://www.google.com/maps/dir//Miraval+Chiapas+M%C3%A9xico+%235+Barrio+de+Fatima+29264+San+Crist%C3%B3bal+de+las+Casas,+Chis./@16.7314781,-92.6525569,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x85ed450b5f91d04f:0x4bf35078a8a99aa0"
-                        class="btn btn-green inline-block px-4 py-2 mt-8"
+                        class="btn btn-green inline-block px-4 py-2 sm:mt-8 mt-3"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                     >
@@ -86,21 +87,21 @@
             </div>
 
             <div id="hotel" data-link="3" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
-                    <div class="flex items-center">
-                        <h2 class="text-5xl text-green-800 font-semibold pt-2">Hotel Rocaval</h2>
-                        <p class="inline-flex items-center bg-yellow-400 rounded px-2 ml-6">
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 md:pb-20 pb-14">
+                    <div class="sm:flex items-center">
+                        <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Hotel Rocaval</h2>
+                        <p class="inline-flex items-center bg-yellow-400 rounded px-2 sm:ml-6 md:-mt-3 sm:-mt-2">
                             <svg class="h-4" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#554716" d="m10 15.77 6.18 3.73-1.64-7.03L20 7.74l-7.19-.61L10 .5 7.19 7.13 0 7.74l5.46 4.73-1.64 7.03L10 15.77Z"/>
                             </svg>
                             <span class="pt-1 ml-2">Tarifa especial</span>
                         </p>
                     </div>
-                    <div class="flex items-center gap-8 mt-6">
-                        <img src="/images/hotel/hotel-1.png" class="w-1/2 h-80 object-auto rounded-md" alt="Imagen de hotel">
-                        <img src="/images/hotel/hotel-2.png" class="w-1/2 h-80 object-auto rounded-md" alt="Imagen de hotel">
+                    <div class="sm:flex items-center xl:gap-8 gap-4 sm:mt-6 mt-3">
+                        <img src="/images/hotel/hotel-1.png" class="sm:w-1/2 w-full xl:h-80 md:h-60 h-40 sm:object-auto object-cover sm:object-center object-bottom rounded-md" alt="Imagen de hotel">
+                        <img src="/images/hotel/hotel-2.png" class="sm:block hidden w-1/2 xl:h-80 md:h-60 h-40 object-auto rounded-md" alt="Imagen de hotel">
                     </div>
-                    <div class="flex items-start mt-6">
+                    <div class="flex items-start sm:mt-6 mt-3">
                         <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
@@ -109,8 +110,8 @@
                             <p class="font-JetBrains font-medium text-green-800 uppercase mt-2">El Salón se encuentra dentro del recinto de este hotel, esta podría ser la mejor opción pensando en tu comodidad para el regreso de la fiesta a tu hospedaje. Aprovecha la tarifa especial.</p>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-6 mt-5">
-                        <div class="col-span-1">
+                    <div class="md:grid xl:grid-cols-7 grid-cols-8 xl:gap-6 gap-3 mt-5">
+                        <div class="xl:col-span-4 col-span-5">
                             <div class="flex items-start">
                                 <svg class="text-amber-500 flex-shrink-0 w-4 pt-2" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill="currentColor" d="M6 9.5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3Zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1Zm12-3h-8v8H2V.5H0v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4Zm2 8h-8v-6h6c1.1 0 2 .9 2 2v4Z"/>
@@ -143,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-span-1">
+                        <div class="xl:col-span-3 col-span-3 md:mt-0 mt-5">
                             <div class="flex items-start pl-2">
                                 <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill="currentColor" d="M12 18h-2v-2h2v2Zm-2-7H8v5h2v-5Zm8-2h-2v4h2V9Zm-2-2h-2v2h2V7ZM4 9H2v2h2V9ZM2 7H0v2h2V7Zm7-5h2V0H9v2Zm-7.5-.5v3h3v-3h-3ZM6 6H0V0h6v6Zm-4.5 7.5v3h3v-3h-3ZM6 18H0v-6h6v6Zm7.5-16.5v3h3v-3h-3ZM18 6h-6V0h6v6Zm-2 10v-3h-4v2h2v3h4v-2h-2Zm-2-7h-4v2h4V9Zm-4-2H4v2h2v2h2V9h2V7Zm1-1V4H9V2H7v4h4ZM3.75 2.25h-1.5v1.5h1.5v-1.5Zm0 12h-1.5v1.5h1.5v-1.5Zm12-12h-1.5v1.5h1.5v-1.5Z"/>
@@ -153,12 +154,12 @@
                             <img src="/images/qr.svg" class="h-56 object-auto mt-2" alt="Imagen del QR">
                         </div>
                     </div>
-                    <div class="mt-14">
-                        <div class="flex items-start border-t border-amber-500 pt-5">
-                            <h3 class="bg-gray-500 pr-7 -mt-11">Más opciones de reservación</h3>
+                    <div class="sm:mt-14 mt-10">
+                        <div class="flex items-start sm:border-t sm:border-amber-500 pt-5">
+                            <h3 class="sm:text-3xl text-2xl sm:bg-gray-500 pr-7 -mt-11">Más opciones de reservación</h3>
                         </div>
-                        <div class="grid grid-cols-3 gap-6 mt-4">
-                            <div class="col-span-1">
+                        <div class="md:grid grid-cols-11 xl:gap-6 lg:gap-3 sm:mt-4 mt-0">
+                            <div class="xl:col-span-3 col-span-3 first:mt-0 md:mt-0 mt-5">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill="currentColor" d="M3.54 2c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM4.5 0H1C.45 0 0 .45 0 1c0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 5.5 1c0-.55-.45-1-1-1Z"/>
@@ -166,7 +167,7 @@
                                     <div class="ml-2">
                                         <span class="font-JetBrains uppercase">Teléfono</span>
                                         <p class="font-JetBrains font-medium text-green-800 text-lg mt-2">
-                                            <a href="tel:9676749500" class="block">(967) 674 9500</a>
+                                            <a href="tel:9676749500" class="block">967 674 9500</a>
                                         </p>
                                         <p class="font-JetBrains font-medium text-green-800 text-lg mt-0">
                                             <a href="tel:9676781622" class="block">967 678 1622</a>
@@ -177,7 +178,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-span-1">
+                            <div class="xl:col-span-5 col-span-5 first:mt-0 md:mt-0 mt-5">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -193,7 +194,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-span-1">
+                            <div class="xl:col-span-3 col-span-3 first:mt-0 md:mt-0 mt-5">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
@@ -214,22 +215,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-14">
-                        <div class="flex items-start border-t border-amber-500 pt-5">
-                            <h3 class="bg-gray-500 pr-7 -mt-11">Mapa del hotel</h3>
+                    <div class="sm:mt-14 mt-10">
+                        <div class="flex items-start sm:border-t sm:border-amber-500 pt-5">
+                            <h3 class="sm:text-3xl text-2xl sm:bg-gray-500 pr-7 -mt-11">Mapa del hotel</h3>
                         </div>
-                        <div class="map-party mt-3">
+                        <div class="map-party sm:mt-3 -mt-1">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.8958172287753!2d-92.65479868542732!3d16.73204932577838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed459f42fe3553%3A0xbf248228ff13ad37!2sHotel%20Rocaval!5e0!3m2!1ses!2smx!4v1658544955171!5m2!1ses!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
-                        <p class="mt-5">México #5, Barrio de Fátima, 29264 San Cristóbal de las Casas, Chis.</p>
+                        <p class="sm:mt-5 mt-3">México #5, Barrio de Fátima, 29264 San Cristóbal de las Casas, Chis.</p>
                     </div>
                 </div>
             </div>
 
             <div id="airport" data-link="4" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
-                    <h2 class="text-5xl text-green-800 font-semibold pt-2">Aeropuerto</h2>
-                    <h3 class="mt-6">Sobre tu llegada a Chiapas</h3>
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 md:pb-20 pb-14">
+                    <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Aeropuerto</h2>
+                    <h3 class="md:text-3xl text-2xl sm:mt-6 mt-3">Sobre tu llegada a Chiapas</h3>
                     <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">
                         El aeropuerto más cercano a San Cristóbal de las Casas es el Aeropuerto Internacional Ángel Albino Corzo. Para ir a San Cristóbal de las Casas te sugerimos estas opciones y si necesitas más información de transporte puedes
                         <a
@@ -244,7 +245,7 @@
                             <span class="ml-2">Ir al sitio</span>
                         </a>
                     </p>
-                    <div class="grid grid-cols-3 gap-7 mt-8">
+                    <div class="slider-home grid grid-cols-3 gap-6 sm:mt-8 mt-3 xl:mx-0 md:-mx-2">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                             <h4>ADO</h4>
                             <img src="/images/taxis/ado.png" class="h-18 object-contain rounded-md mx-auto mt-3" alt="Imagen de ADO">
@@ -297,7 +298,7 @@
                             </div>
                         </div>
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                            <h4>Taxi Seguro San Cristóbal</h4>
+                            <h4>Taxi Seguro SC</h4>
                             <img src="/images/taxis/taxi-2.jpg" class="h-18 object-contain rounded-md mx-auto mt-3" alt="Imagen de Taxi">
                             <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                 <div class="flex items-start">
@@ -420,9 +421,9 @@
                             </div>
                         </div>
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                            <h4>Taxis afuera del aeropuerto</h4>
+                            <h4>Afuera del aeropuerto</h4>
                             <img src="/images/taxis/taxi-6.jpg" class="h-18 object-contain rounded-md mx-auto mt-3" alt="Imagen de Taxi">
-                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5 xl:pb-0 lg:pb-24 md:pb-18 pb-24">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -432,7 +433,7 @@
                                         <p class="font-JetBrains font-medium text-green-800 mt-2">
                                             Precio: $350.00 MXN a $450.00 MXN - 1 persona
                                         </p>
-                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2 xl:pb-0 pb-1">
                                             Desde el aeropuerto al centro de Tuxtla Gutiérrez
                                         </p>
                                     </div>
@@ -442,7 +443,7 @@
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                             <h4>Renta de auto</h4>
                             <img src="/images/taxis/rent.png" class="h-18 object-contain rounded-md mx-auto mt-3" alt="Imagen de Taxi">
-                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5 xl:pb-0 pb-16">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -462,7 +463,7 @@
                                                 <span class="ml-2">Obtener información</span>
                                             </a>
                                         </p>
-                                        <p class="font-JetBrains font-medium text-green-800 mt-2">
+                                        <p class="font-JetBrains font-medium text-green-800 mt-2 xl:pb-0 pb-2">
                                             Desde el aeropuerto puedes rentar un auto. Existen muchas compañías para poder hacerlo.
                                         </p>
                                     </div>
@@ -474,13 +475,13 @@
             </div>
 
             <div id="taxis" data-link="5" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
-                    <h2 class="text-5xl text-green-800 font-semibold">Taxis</h2>
-                    <h3 class="mt-6">Dentro de San Cristóbal de las Casas</h3>
-                    <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">Se recomienda llamar con mucho tiempo de anticipación (<strong class="font-black">15 minutos</strong> de espera aproximadamente). <strong class="font-black">No</strong> cuentan con taxímetros. Dentro de la ciudad cobran un promedio de <strong class="font-black">$50.00 MXN</strong> por viaje.</p>
-                    <div class="grid grid-cols-3 gap-7 mt-8">
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 md:pb-20 pb-14">
+                    <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Taxis</h2>
+                    <h3 class="md:text-3xl text-2xl sm:mt-6 mt-3">Dentro de San Cristóbal de las Casas</h3>
+                    <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">Reservar con anticipación (<strong class="font-black">15 minutos</strong> de espera aproximadamente). <strong class="font-black">No</strong> cuentan con taxímetros. Dentro de la ciudad cobran un promedio de <strong class="font-black">$50.00 MXN</strong> por viaje.</p>
+                    <div class="slider-home grid grid-cols-3 gap-6 sm:mt-8 mt-3 xl:mx-0 md:-mx-2">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                            <h4>Hospital de las Culturas</h4>
+                            <h4>Hosp. de las Culturas</h4>
                             <img src="/images/taxis/taxi-1.jpg" class="h-28 object-contain rounded-md mx-auto mt-3" alt="Imagen de Taxi">
                             <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                 <div class="flex items-start">
@@ -513,7 +514,7 @@
                             </div>
                         </div>
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                            <h4>Taxi Seguro San Cristóbal</h4>
+                            <h4>Taxi Seguro SC</h4>
                             <img src="/images/taxis/taxi-2.jpg" class="h-28 object-contain rounded-md mx-auto mt-3" alt="Imagen de Taxi">
                             <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                 <div class="flex items-start">
@@ -589,9 +590,9 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="mt-12">De Tuxtla Gutiérrez a San Cristóbal de las Casas</h3>
+                    <h3 class="md:text-3xl text-2xl xl:mt-12 sm:mt-20 mt-16">De Tuxtla Gutiérrez a San Cristóbal de las Casas</h3>
                     <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">Los taxis pueden ser colectivos teniendo un costo de <strong class="font-black">$70.00 MXN</strong> por persona. El trayecto es de aproximadamente 1 hora y 35 minutos.</p>
-                    <div class="grid grid-cols-3 gap-7 mt-8">
+                    <div class="slider-home grid grid-cols-3 gap-6 sm:mt-8 mt-3 xl:mx-0 md:-mx-2">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                             <h4>ADO</h4>
                             <img src="/images/taxis/ado.png" class="h-28 object-contain rounded-md mx-auto mt-3" alt="Imagen de ADO">
@@ -677,7 +678,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5 xl:pb-0 pb-12">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
@@ -720,7 +721,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
+                            <div class="flex items-start border-t border-amber-500 pt-5 mt-5 xl:pb-0 pb-12">
                                 <div class="flex items-start">
                                     <svg class="text-amber-500 flex-shrink-0 w-4 pt-2px" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill="currentColor" d="M8 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Zm6-1.8C14 4.57 11.35 2 8 2S2 4.57 2 8.2c0 2.34 1.95 5.44 6 9.14 4.05-3.7 6-6.8 6-9.14ZM8 0c4.2 0 8 3.22 8 8.2 0 3.32-2.67 7.25-8 11.8-5.33-4.55-8-8.48-8-11.8C0 3.22 3.8 0 8 0Z"/>
@@ -739,17 +740,20 @@
             </div>
 
             <div id="restaurants" data-link="6" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
-                    <h2 class="text-5xl text-green-800 font-semibold pt-2">Restaurantes</h2>
-                    <div class="border border-amber-500 rounded relative px-4 py-3 mt-5">
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 md:pb-20 pb-14">
+                    <h2 class="md:text-5xl text-4xl text-green-800 font-semibold pt-2">Restaurantes</h2>
+                    <div class="border border-amber-500 rounded relative px-4 py-3 sm:mt-5 mt-4">
                         <h3>Las Pichanchas</h3>
-                        <div class="grid grid-cols-12 gap-6 w-full mt-2">
-                            <div class="col-span-5">
+                        <div class="grid xl:grid-cols-12 grid-cols-7 gap-6 w-full sm:mt-2 mt-1">
+                            <div class="col-span-5 xl:block hidden">
                                 <img src="/images/restaurants/restaurant-1.png" class="w-full object-contain rounded-md" alt="Imagen de Restaurant">
                             </div>
                             <div class="col-span-7">
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="col-span-1">
+                                <div class="md:grid xl:grid-cols-2 grid-cols-3 gap-3">
+                                    <div class="col-span-1 xl:hidden">
+                                        <img src="/images/restaurants/restaurant-1.png" class="w-full md:h-auto h-40 md:object-contain object-cover rounded-md" alt="Imagen de Restaurant">
+                                    </div>
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -762,7 +766,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-span-1">
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill="currentColor" d="M3.54 2c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM4.5 0H1C.45 0 0 .45 0 1c0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 5.5 1c0-.55-.45-1-1-1Z"/>
@@ -813,15 +817,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border border-amber-500 rounded relative px-4 py-3 mt-5">
+                    <div class="border border-amber-500 rounded relative px-4 py-3 sm:mt-5 mt-4">
                         <h3>Sarajevo Café Jardin</h3>
-                        <div class="grid grid-cols-12 gap-6 w-full mt-2">
-                            <div class="col-span-5">
+                        <div class="grid xl:grid-cols-12 grid-cols-7 gap-6 w-full sm:mt-2 mt-1">
+                            <div class="col-span-5 xl:block hidden">
                                 <img src="/images/restaurants/restaurant-2.png" class="w-full object-contain rounded-md" alt="Imagen de Restaurant">
                             </div>
                             <div class="col-span-7">
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="col-span-1">
+                                <div class="md:grid xl:grid-cols-2 grid-cols-3 gap-3">
+                                    <div class="col-span-1 xl:hidden">
+                                        <img src="/images/restaurants/restaurant-2.png" class="w-full md:h-auto h-40 md:object-contain object-cover rounded-md" alt="Imagen de Restaurant">
+                                    </div>
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -834,7 +841,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-span-1">
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill="currentColor" d="M3.54 2c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM4.5 0H1C.45 0 0 .45 0 1c0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 5.5 1c0-.55-.45-1-1-1Z"/>
@@ -885,15 +892,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border border-amber-500 rounded relative px-4 py-3 mt-5">
+                    <div class="border border-amber-500 rounded relative px-4 py-3 sm:mt-5 mt-4">
                         <h3>El Fogón de Jovel</h3>
-                        <div class="grid grid-cols-12 gap-6 w-full mt-2">
-                            <div class="col-span-5">
+                        <div class="grid xl:grid-cols-12 grid-cols-7 gap-6 w-full sm:mt-2 mt-1">
+                            <div class="col-span-5 xl:block hidden">
                                 <img src="/images/restaurants/restaurant-3.png" class="w-full object-contain rounded-md" alt="Imagen de Restaurant">
                             </div>
                             <div class="col-span-7">
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="col-span-1">
+                                <div class="md:grid xl:grid-cols-2 grid-cols-3 gap-3">
+                                    <div class="col-span-1 xl:hidden">
+                                        <img src="/images/restaurants/restaurant-3.png" class="w-full md:h-auto h-40 md:object-contain object-cover rounded-md" alt="Imagen de Restaurant">
+                                    </div>
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -906,7 +916,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-span-1">
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill="currentColor" d="M3.54 2c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM4.5 0H1C.45 0 0 .45 0 1c0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 5.5 1c0-.55-.45-1-1-1Z"/>
@@ -957,15 +967,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border border-amber-500 rounded relative px-4 py-3 mt-5">
+                    <div class="border border-amber-500 rounded relative px-4 py-3 sm:mt-5 mt-4">
                         <h3>Sensaciones de Chiapas</h3>
-                        <div class="grid grid-cols-12 gap-6 w-full mt-2">
-                            <div class="col-span-5">
+                        <div class="grid xl:grid-cols-12 grid-cols-7 gap-6 w-full sm:mt-2 mt-1">
+                            <div class="col-span-5 xl:block hidden">
                                 <img src="/images/restaurants/restaurant-4.png" class="w-full object-contain rounded-md" alt="Imagen de Restaurant">
                             </div>
                             <div class="col-span-7">
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="col-span-1">
+                                <div class="md:grid xl:grid-cols-2 grid-cols-3 gap-3">
+                                    <div class="col-span-1 xl:hidden">
+                                        <img src="/images/restaurants/restaurant-4.png" class="w-full md:h-auto h-40 md:object-contain object-cover rounded-md" alt="Imagen de Restaurant">
+                                    </div>
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -978,7 +991,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-span-1">
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill="currentColor" d="M3.54 2c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM4.5 0H1C.45 0 0 .45 0 1c0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 5.5 1c0-.55-.45-1-1-1Z"/>
@@ -1029,15 +1042,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="border border-amber-500 rounded relative px-4 py-3 mt-5">
+                    <div class="border border-amber-500 rounded relative px-4 py-3 sm:mt-5 mt-4">
                         <h3>Cacao Nativa</h3>
-                        <div class="grid grid-cols-12 gap-6 w-full mt-2">
-                            <div class="col-span-5">
+                        <div class="grid xl:grid-cols-12 grid-cols-7 gap-6 w-full sm:mt-2 mt-1">
+                            <div class="col-span-5 xl:block hidden">
                                 <img src="/images/restaurants/restaurant-5.png" class="w-full object-contain rounded-md" alt="Imagen de Restaurant">
                             </div>
                             <div class="col-span-7">
-                                <div class="grid grid-cols-2 gap-3">
-                                    <div class="col-span-1">
+                                <div class="md:grid xl:grid-cols-2 grid-cols-3 gap-3">
+                                    <div class="col-span-1 xl:hidden">
+                                        <img src="/images/restaurants/restaurant-5.png" class="w-full md:h-auto h-40 md:object-contain object-cover rounded-md" alt="Imagen de Restaurant">
+                                    </div>
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-5 pt-2px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1050,7 +1066,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-span-1">
+                                    <div class="col-span-1 md:mt-0 mt-5">
                                         <div class="flex items-start">
                                             <svg class="text-amber-500 flex-shrink-0 w-4 pt-1" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path fill="currentColor" d="M3.54 2c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM4.5 0H1C.45 0 0 .45 0 1c0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 5.5 1c0-.55-.45-1-1-1Z"/>
@@ -1105,10 +1121,10 @@
             </div>
 
             <div id="location" data-link="7" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative h-full px-10 pt-5 pb-20">
-                    <h2 class="text-5xl text-green-800 font-semibold pt-2">¿Qué hacer en Chiapas?</h2>
-                    <h3 class="mt-6">San Cristóbal de las Casas</h3>
-                    <div class="grid grid-cols-3 gap-7 mt-4">
+                <div class="container mx-auto relative h-full sm:px-10 px-4 pt-5 md:pb-20 pb-14">
+                    <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">¿Qué hacer en Chiapas?</h2>
+                    <h3 class="md:text-3xl text-2xl sm:mt-6 mt-3">San Cristóbal de las Casas</h3>
+                    <div class="slider-home grid grid-cols-3 gap-6 sm:mt-4 mt-3 xl:mx-0 md:-mx-2">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                             <h4>Museo del Ámbar</h4>
                             <img src="/images/locations/place-1.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
@@ -1241,7 +1257,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex items-start border-t border-amber-500 pt-5 mt-11">
+                            <div class="flex items-start border-t border-amber-500 pt-5 xl:mt-11 lg:mt-11 md:mt-5 mt-11">
                                 <div class="flex items-start">
                                     <a
                                         href="http://www.turismochiapas.gob.mx/st/andadores-tursticos-de-san-cristbal-de-las-casas"
@@ -1284,8 +1300,8 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="mt-12">Tuxtla Gutiérrez</h3>
-                    <div class="grid grid-cols-3 gap-7 mt-4">
+                    <h3 class="md:text-3xl text-2xl xl:mt-12 sm:mt-20 mt-16">Tuxtla Gutiérrez</h3>
+                    <div class="slider-home grid grid-cols-3 gap-6 sm:mt-4 mt-3 xl:mx-0 md:-mx-2">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                             <h4>Parque de la Marimba</h4>
                             <img src="/images/locations/place-7.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
@@ -1316,7 +1332,7 @@
                             </div>
                         </div>
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                            <h4>Museo Regional de Chiapas</h4>
+                            <h4>Museo Regional de Chis.</h4>
                             <img src="/images/locations/place-8.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
                             <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                 <div class="flex items-start">
@@ -1374,8 +1390,8 @@
                             </div>
                         </div>
                     </div>
-                    <h3 class="mt-12">Chiapa de Corzo</h3>
-                    <div class="grid grid-cols-3 gap-7 mt-4">
+                    <h3 class="md:text-3xl text-2xl xl:mt-12 sm:mt-20 mt-16">Chiapa de Corzo</h3>
+                    <div class="slider-home grid grid-cols-3 gap-6 sm:mt-4 mt-3 xl:mx-0 md:-mx-2">
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                             <h4>Plaza Central</h4>
                             <img src="/images/locations/place-10.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
@@ -1435,7 +1451,7 @@
                             </div>
                         </div>
                         <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
-                            <h4 class="truncat">Exconvento de S. Domingo</h4>
+                            <h4 class="truncat">Exconvento de SD</h4>
                             <img src="/images/locations/place-12.png" class="w-full h-44 object-cover rounded-md mx-auto mt-3" alt="Imagen de Lugar">
                             <div class="flex items-start border-t border-amber-500 pt-5 mt-5">
                                 <div class="flex items-start">
@@ -1445,7 +1461,7 @@
                                     <div class="ml-2">
                                         <span class="font-JetBrains uppercase">Ubicación</span>
                                         <p class="font-JetBrains font-medium text-green-800 mt-2">
-                                            Av Mexicanidad Chiapaneca #10, Colonia Centro, 29160 Chiapa de Corzo, Chis.
+                                            Av Mexicanidad Chiapaneca #10, Centro, 29160 Chiapa de Corzo, Chis.
                                         </p>
                                     </div>
                                 </div>
@@ -1468,12 +1484,12 @@
             </div>
 
             <div id="gifts" data-link="8" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative min-h-screen px-10 pt-5 pb-20">
-                    <div class="absolute left-1/2 right-auto top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-10">
+                <div class="container mx-auto relative min-h-screen sm:px-10 px-4 pt-5 pb-20">
+                    <div class="xl:absolute xl:left-1/2 xl:right-auto xl:top-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 w-full xl:px-10">
                         <div>
-                            <h2 class="text-5xl text-green-800 font-semibold">Mesa de regalos</h2>
-                            <h4 class="mt-6">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
-                            <div class="grid grid-cols-3 gap-7 mt-14">
+                            <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Mesa de regalos</h2>
+                            <h4 class="md:text-2xl text-xl xl:mt-6 mt-3">Tu presencia será nuestro mejor regalo, sin embargo, si quieres hacernos un obsequio de bodas te compartimos algunas opciones:</h4>
+                            <div class="slider-home grid grid-cols-3 gap-6 xl:mt-14 mt-4 xl:mx-0 md:-mx-2">
                                 <div class="col-span-1 border border-amber-500 rounded relative px-4 py-4">
                                     <h3>Liverpool</h3>
                                     <img src="/images/brands/liverpool.png" class="w-2/3 h-18 object-contain mx-auto mt-4" alt="Imagen de Liverpool">
@@ -1488,7 +1504,7 @@
                                             <p class="font-JetBrains font-medium text-green-800 text-lg mt-2">50942558</p>
                                         </div>
                                     </div>
-                                    <div class="flex items-center border-t border-amber-500 pt-5 mt-5">
+                                    <div class="flex items-center border-t border-amber-500 pt-5 lg:mt-5 mt-12">
                                         <a
                                             href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/50942558"
                                             class="btn btn-green stretched-link inline-block px-5 py-2"
@@ -1553,7 +1569,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <p class="text-green-800 font-JetBrains font-medium mt-6">Citibanamex</p>
+                                    <p class="text-green-800 font-JetBrains font-medium lg:mt-6 md:mt-7 mt-14">Citibanamex</p>
                                     <p class="text-green-800 font-JetBrains font-medium mt-1">Carlos Armando Hernández Anza</p>
                                 </div>
                             </div>
@@ -1563,48 +1579,48 @@
             </div>
 
             <div id="confirm" data-link="9" class="section container mx-auto relative min-h-screen">
-                <div class="container mx-auto relative min-h-screen px-10 pt-5">
-                    <div class="absolute left-1/2 right-auto top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full px-10 py-20">
-                        <h2 class="text-green-800 text-center">Familia</h2>
-                        <h1 class="text-green-800 text-center -mt-1">Lorem Ipsum</h1>
-                        <div class="bg-white w-3/5 rounded-lg mx-auto py-4 mt-3">
+                <div class="container mx-auto relative min-h-screen sm:px-10 px-4 pt-5">
+                    <div class="xl:absolute xl:left-1/2 xl:right-auto xl:top-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 w-full xl:px-10 xl:py-20 pb-10">
+                        <h2 class="sm:text-4xl text-3xl text-green-800 text-center sm:mt-0 mt-8">Familia</h2>
+                        <h1 class="xl:text-6xl sm:text-5xl text-4xl text-green-800 text-center md:mt-3">Lorem Ipsum</h1>
+                        <div class="bg-white xl:w-3/5 lg:w-4/5 md:w-5/6 sm:w-11/12 w-full rounded-lg mx-auto py-4 md:mt-6 mt-3">
                             <div class="text-center text-green-800">
-                                <h4>Esperamos verlos en nuestra boda</h4>
-                                <h2 class="text-green-800 -mt-1">Katya & Carlos</h2>
+                                <h4 class="sm:text-2xl text-xl">Esperamos verlos en nuestra boda</h4>
+                                <h2 class="sm:text-4xl text-3xl text-green-800 -mt-1">Katya & Carlos</h2>
                             </div>
                             <div class="mt-2">
-                                <div class="bg-green-300 px-10 py-1">
+                                <div class="bg-green-300 md:px-10 sm:px-5 px-6 py-1">
                                     <p class="text-white pt-1">Tomar en cuenta esto para tu asistencia</p>
                                 </div>
-                                <div class="grid grid-cols-2 gap-x-6 gap-y-1 px-10 py-4">
+                                <div class="sm:grid grid-cols-2 md:gap-x-6 sm:gap-y-1 gap-y-3 md:px-10 sm:px-5 px-6 sm:py-4 py-3">
                                     <p class="col-span-1 flex items-center">
                                         <svg class="w-5" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="currentColor" d="M19.656 3.5a2.74 2.74 0 0 1 2.75-2.75 2.74 2.74 0 0 1 2.75 2.75 2.74 2.74 0 0 1-2.75 2.75 2.74 2.74 0 0 1-2.75-2.75Zm5.5 24.75V20h3.438L25.1 9.509a2.763 2.763 0 0 0-2.612-1.884h-.165a2.75 2.75 0 0 0-2.613 1.884l-1.182 3.547c1.485.825 2.502 2.379 2.502 4.194v11h4.125ZM14.844 13.812a2.06 2.06 0 0 0 2.062-2.062 2.06 2.06 0 0 0-2.062-2.063 2.06 2.06 0 0 0-2.063 2.063 2.06 2.06 0 0 0 2.063 2.063ZM5.219 6.25a2.74 2.74 0 0 0 2.75-2.75A2.74 2.74 0 0 0 5.219.75a2.74 2.74 0 0 0-2.75 2.75 2.74 2.74 0 0 0 2.75 2.75Zm2.75 22v-9.625h2.062v-8.25a2.758 2.758 0 0 0-2.75-2.75H3.156a2.758 2.758 0 0 0-2.75 2.75v8.25H2.47v9.625h5.5Zm8.937 0v-5.5h1.375v-5.5a2.077 2.077 0 0 0-2.062-2.063h-2.75a2.078 2.078 0 0 0-2.063 2.063v5.5h1.375v5.5h4.125Z"/>
                                         </svg>
-                                        <span class="text-lg pt-1 ml-3">Sin niños</span>
+                                        <span class="sm:text-lg font-medium pt-1 ml-3">Sin niños</span>
                                     </p>
                                     <p class="col-span-1 flex items-center">
                                         <svg class="h-5 ml-1" viewBox="0 0 9 23" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="currentColor" d="M4.5 5.313a2.4 2.4 0 0 0 2.406-2.407A2.4 2.4 0 0 0 4.5.5a2.4 2.4 0 0 0-2.406 2.406A2.4 2.4 0 0 0 4.5 5.312ZM7.25 22.5v-6.875h1.375V9.437a2.758 2.758 0 0 0-2.75-2.75h-2.75a2.758 2.758 0 0 0-2.75 2.75v6.188H1.75V22.5h5.5Z"/>
                                         </svg>
-                                        <span class="text-lg pt-1 ml-4">Vestimenta formal</span>
+                                        <span class="sm:text-lg font-medium pt-1 sm:ml-4 ml-5">Vestimenta formal</span>
                                     </p>
                                     <p class="col-span-1 flex items-center">
                                         <svg class="h-5" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="currentColor" d="m.23 21.27 14-5-9-9-5 14Zm10.35-5.82-7.05 2.52 2.52-7.05 4.53 4.53ZM12.76 11.8l5.59-5.59a1.25 1.25 0 0 1 1.77 0l.59.59 1.06-1.06-.59-.59a2.758 2.758 0 0 0-3.89 0l-5.59 5.59 1.06 1.06ZM8.29 6.15l-.59.59L8.76 7.8l.59-.59a2.758 2.758 0 0 0 0-3.89l-.59-.59L7.7 3.8l.59.59c.48.48.48 1.28 0 1.76ZM15.29 11.15l-1.59 1.59 1.06 1.06 1.59-1.59a1.25 1.25 0 0 1 1.77 0l1.61 1.61 1.06-1.06-1.61-1.61a2.758 2.758 0 0 0-3.89 0ZM13.29 5.15 9.7 8.74l1.06 1.06 3.59-3.59a2.758 2.758 0 0 0 0-3.89L12.76.73 11.7 1.79l1.59 1.59c.48.49.48 1.29 0 1.77Z"/>
                                         </svg>
-                                        <span class="text-lg pt-1 ml-3">Divertirte mucho</span>
+                                        <span class="sm:text-lg font-medium pt-1 ml-3">Divertirte mucho</span>
                                     </p>
                                     <p class="col-span-1 flex items-center">
                                         <svg class="h-4" viewBox="0 0 31 31" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="currentColor" d="M8.666 5.806 3.8 10.674c-4.565 4.565-4.565 11.962 0 16.527 4.565 4.565 11.962 4.565 16.527 0l8.264-8.264c1.334-1.333 1.334-3.52 0-4.867a3.263 3.263 0 0 0-.536-.44l.536-.536c1.334-1.334 1.334-3.52 0-4.868a3.651 3.651 0 0 0-.742-.564 3.433 3.433 0 0 0-.715-3.808 3.444 3.444 0 0 0-4.4-.385 3.734 3.734 0 0 0-.468-.578c-1.334-1.333-3.52-1.333-4.867 0l-3.452 3.452a3.428 3.428 0 0 0-5.28-.536Zm1.939 1.953a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976L7.21 13.108a4.125 4.125 0 0 1 0 5.83l1.939 1.938a6.88 6.88 0 0 0 1.54-7.37l8.662-8.662a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-6.325 6.325 1.939 1.939 8.264-8.264a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-8.264 8.264 1.939 1.939 6.806-6.806a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-7.782 7.782 1.939 1.939 4.867-4.867a.68.68 0 0 1 .976 0 .68.68 0 0 1 0 .976l-8.25 8.264a8.93 8.93 0 0 1-12.636 0 8.93 8.93 0 0 1 0-12.637l4.854-4.867Zm20.02 14.616c0 4.551-3.699 8.25-8.25 8.25v-2.063a6.197 6.197 0 0 0 6.188-6.187h2.062ZM.375 8.625c0-4.551 3.699-8.25 8.25-8.25v2.063a6.197 6.197 0 0 0-6.188 6.187H.376Z"/>
                                         </svg>
-                                        <span class="text-lg pt-1 ml-3">Aplaudirle a los novios</span>
+                                        <span class="sm:text-lg font-medium pt-1 ml-3">Aplaudirle a los novios</span>
                                     </p>
                                 </div>
                             </div>
                             <div class="border-t border-amber-500 pt-4 pb-3">
-                                <h3 class="text-center font-medium">Pase para <span class="text-amber-800 text-5xl font-medium px-1">{{ $user->companion }}</span> personas</h3>
+                                <h3 class="sm:text-3xl text-2xl text-center font-medium">Pase para <span class="text-amber-800 sm:text-5xl text-4xl font-medium px-1">{{ $user->companion }}</span> personas</h3>
                                 <confirm-attend :current-user="{{ json_encode(auth()->check() ? auth()->user() : null) }}" /></confirm-attend>
                             </div>
                         </div>

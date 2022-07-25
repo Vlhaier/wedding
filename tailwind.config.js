@@ -128,6 +128,7 @@ module.exports = {
       12: '3rem',
       14: '3.5rem',
       16: '4rem',
+      17: '4.25rem',
       18: '4.5rem',
       20: '5rem',
       24: '6rem',
@@ -146,6 +147,7 @@ module.exports = {
       80: '20rem',
       96: '24rem',
       navbar: '340px',
+      'navbar-lg': '280px',
     },
     animation: {
       none: 'none',
@@ -192,6 +194,8 @@ module.exports = {
       'right-top': 'right top',
       top: 'top',
       'right-custom': 'calc(100% - 340px)',
+      'right-custom-lg': 'calc(100% - 280px)',
+      'right-custom-md': 'calc(100% - 4.25rem)',
     },
     backgroundSize: {
       auto: 'auto',
@@ -668,6 +672,7 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      mobile: 'calc(100vh - 6rem)',
     },
     minWidth: {
       0: '0px',
