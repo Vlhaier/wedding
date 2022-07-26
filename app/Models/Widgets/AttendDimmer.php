@@ -24,11 +24,12 @@ class AttendDimmer extends BaseDimmer
     public function run()
     {
         $count =  User::whereAttend(1)->count();
+        $countNo =  User::whereAttend(0)->count();
         $string = "Asistentes";
 
         return view('voyager::dimmer', array_merge($this->config, [
             'icon'   => 'voyager-group',
-            'title'  => "{$count} {$string}",
+            'title'  => "{$count} {$string} y {$countNo} Cancelaciones",
             'text'   => __('voyager::dimmer.attend_text', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
                 'text' => __('voyager::dimmer.attend_link_text'),
