@@ -61,6 +61,15 @@
                             </div>
 
                             <div class="form-group">
+                                @php
+                                    $dataTypeRows = $dataType->{(isset($dataTypeContent->id) ? 'editRows' : 'addRows' )};
+                                    $row = $dataTypeRows->where('field', 'heading')->first();
+                                @endphp
+                                <label class="control-label" for="name">{{ $row->getTranslatedAttribute('display_name') }}</label>
+                                {!! app('voyager')->formField($row, $dataType, $dataTypeContent) !!}
+                            </div>
+
+                            <div class="form-group">
                                 <label for="password">{{ __('voyager::generic.password') }}</label>
                                 @if(isset($dataTypeContent->password))
                                     <input type="password" class="form-control" id="password" name="password" value="" autocomplete="new-password">
