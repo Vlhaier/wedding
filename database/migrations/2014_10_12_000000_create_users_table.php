@@ -29,6 +29,8 @@ class CreateUsersTable extends Migration
             $table->timestamp('deleted_at')->nullable();
             $table->string('heading')->nullable();
             $table->string('username')->nullable();
+            $table->timestamp('first_login')->nullable();
+            $table->timestamp('last_login')->nullable();
         });
     }
 
