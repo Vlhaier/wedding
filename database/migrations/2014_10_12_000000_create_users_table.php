@@ -31,6 +31,7 @@ class CreateUsersTable extends Migration
             $table->string('username')->nullable();
             $table->timestamp('first_login')->nullable();
             $table->timestamp('last_login')->nullable();
+            $table->unsignedInteger('views')->default(0);
         });
     }
 
