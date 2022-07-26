@@ -1579,6 +1579,7 @@
                                     <p class="text-green-800 font-JetBrains font-medium mt-1">Carlos Armando Hernández Anza</p>
                                 </div>
                             </div>
+                            <p class="xl:mt-4 mt-14">*En Liverpool el descuento en todos los productos se reflejan hasta que se agregan al carrito de compras</p>
                         </div>
                     </div>
                 </div>
@@ -1587,7 +1588,7 @@
             <div id="confirm" data-link="9" class="section container mx-auto relative min-h-screen">
                 <div class="container mx-auto relative min-h-screen sm:px-10 px-4 pt-5">
                     <div class="xl:absolute xl:left-1/2 xl:right-auto xl:top-1/2 xl:transform xl:-translate-x-1/2 xl:-translate-y-1/2 w-full xl:px-10 xl:py-20 pb-10">
-                        <h2 class="sm:text-4xl text-3xl text-green-800 text-center sm:mt-0 mt-8">Familia</h2>
+                        <h2 class="sm:text-4xl text-3xl text-green-800 text-center sm:mt-0 mt-8">{{ $user->heading }}</h2>
                         <h1 class="xl:text-6xl sm:text-5xl text-4xl text-green-800 text-center md:mt-3">{{ $user->name }}</h1>
                         <div class="bg-white xl:w-3/5 lg:w-4/5 md:w-5/6 sm:w-11/12 w-full rounded-lg mx-auto py-4 md:mt-6 mt-3">
                             <div class="text-center text-green-800">
