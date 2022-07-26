@@ -4269,7 +4269,7 @@ var render = function render() {
     staticClass: "flex justify-center sm:gap-6 gap-2 sm:mx-0 mx-3 mt-4"
   }, [_c("button", {
     staticClass: "btn btn-green inline-block sm:px-10 px-6 py-2",
-    "class": _vm.currentUser.attend ? "disabled" : "",
+    "class": _vm.currentUser.attend == 1 ? "disabled" : "",
     attrs: {
       id: "btn-yes"
     },
@@ -4281,7 +4281,7 @@ var render = function render() {
     }
   }, [_vm._v("¡Si asistiré!")]), _vm._v(" "), _c("button", {
     staticClass: "btn btn-red inline-block sm:px-5 px-2 py-2",
-    "class": _vm.currentUser.attend ? "" : "disabled",
+    "class": _vm.currentUser.attend == 1 ? "" : "disabled",
     attrs: {
       id: "btn-no"
     },

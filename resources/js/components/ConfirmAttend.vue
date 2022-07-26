@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center sm:gap-6 gap-2 sm:mx-0 mx-3 mt-4">
-        <button id="btn-yes" :class="currentUser.attend ? 'disabled': ''" class="btn btn-green inline-block sm:px-10 px-6 py-2" @click.prevent="confirm(1)">¡Si asistiré!</button>
-        <button id="btn-no" :class="currentUser.attend ? '': 'disabled'" class="btn btn-red inline-block sm:px-5 px-2 py-2" @click.prevent="confirm(0)">No podré asistir</button>
+        <button id="btn-yes" :class="currentUser.attend == 1 ? 'disabled': ''" class="btn btn-green inline-block sm:px-10 px-6 py-2" @click.prevent="confirm(1)">¡Si asistiré!</button>
+        <button id="btn-no" :class="currentUser.attend == 1 ? '': 'disabled'" class="btn btn-red inline-block sm:px-5 px-2 py-2" @click.prevent="confirm(0)">No podré asistir</button>
     </div>
 </template>
 
