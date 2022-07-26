@@ -6,6 +6,7 @@ return [
     'edit_user'         => 'Editar usuario',
     'password'          => 'Contraseña',
     'password_hint'     => 'Dejar vacío para mantener el mismo',
+    'password_default'  => 'Contraseña por default',
     'role'              => 'Rol',
     'role_default'      => 'Rol predeterminado',
     'roles'             => 'Roles',

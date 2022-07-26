@@ -48,7 +48,7 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
             2 => 
@@ -64,8 +64,8 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
-                'order' => 3,
+                'details' => '{"validation":{"rule":"required|unique:users,email,id"}}',
+                'order' => 4,
             ),
             3 => 
             array (
@@ -81,7 +81,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 5,
+                'order' => 6,
             ),
             4 => 
             array (
@@ -97,7 +97,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 6,
+                'order' => 7,
             ),
             5 => 
             array (
@@ -113,7 +113,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 7,
+                'order' => 8,
             ),
             6 => 
             array (
@@ -129,7 +129,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 9,
+                'order' => 10,
             ),
             7 => 
             array (
@@ -145,7 +145,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 10,
+                'order' => 11,
             ),
             8 => 
             array (
@@ -161,7 +161,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 0,
                 'details' => '{"model":"TCG\\\\Voyager\\\\Models\\\\Role","table":"roles","type":"belongsTo","column":"role_id","key":"id","label":"display_name","pivot_table":"roles","pivot":"0","taggable":"0"}',
-                'order' => 12,
+                'order' => 13,
             ),
             9 => 
             array (
@@ -177,7 +177,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{"model":"TCG\\\\Voyager\\\\Models\\\\Role","table":"roles","type":"belongsToMany","column":"id","key":"id","label":"display_name","pivot_table":"user_roles","pivot":"1","taggable":"0"}',
-                'order' => 13,
+                'order' => 14,
             ),
             10 => 
             array (
@@ -193,7 +193,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 18,
+                'order' => 20,
             ),
             11 => 
             array (
@@ -353,7 +353,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 11,
+                'order' => 12,
             ),
             21 => 
             array (
@@ -369,7 +369,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 8,
+                'order' => 9,
             ),
             22 => 
             array (
@@ -385,7 +385,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 4,
+                'order' => 5,
             ),
             23 => 
             array (
@@ -400,8 +400,8 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
-                'order' => 14,
+                'details' => '{"default":"1"}',
+                'order' => 15,
             ),
             24 => 
             array (
@@ -417,7 +417,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{"default":"0","options":{"0":"No","1":"Si"}}',
-                'order' => 15,
+                'order' => 16,
             ),
             25 => 
             array (
@@ -432,8 +432,8 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"default":"No","options":{"0":"No","1":"Si"}}',
-                'order' => 16,
+                'details' => '{"default":"1","options":{"0":"No","1":"Si"}}',
+                'order' => 17,
             ),
             26 => 
             array (
@@ -449,7 +449,39 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 17,
+                'order' => 19,
+            ),
+            27 => 
+            array (
+                'id' => 28,
+                'data_type_id' => 1,
+                'field' => 'heading',
+                'type' => 'text',
+                'display_name' => 'Título',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 18,
+            ),
+            28 => 
+            array (
+                'id' => 29,
+                'data_type_id' => 1,
+                'field' => 'username',
+                'type' => 'text',
+                'display_name' => 'Nombre de usuario',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"validation":{"rule":"required|unique:users,username,id"}}',
+                'order' => 3,
             ),
         ));
         

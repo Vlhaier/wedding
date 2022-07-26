@@ -39,7 +39,7 @@ class MenuItemsTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'menu_id' => 1,
-                'title' => 'Media',
+                'title' => 'Multimedia',
                 'url' => '',
                 'target' => '_self',
                 'icon_class' => 'voyager-images',
@@ -87,7 +87,7 @@ class MenuItemsTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'menu_id' => 1,
-                'title' => 'Tools',
+                'title' => 'Herramientas',
                 'url' => '',
                 'target' => '_self',
                 'icon_class' => 'voyager-tools',
@@ -119,7 +119,7 @@ class MenuItemsTableSeeder extends Seeder
             array (
                 'id' => 7,
                 'menu_id' => 1,
-                'title' => 'Database',
+                'title' => 'Base de Datos',
                 'url' => '',
                 'target' => '_self',
                 'icon_class' => 'voyager-data',
@@ -167,7 +167,7 @@ class MenuItemsTableSeeder extends Seeder
             array (
                 'id' => 10,
                 'menu_id' => 1,
-                'title' => 'Settings',
+                'title' => 'Parámetros',
                 'url' => '',
                 'target' => '_self',
                 'icon_class' => 'voyager-settings',

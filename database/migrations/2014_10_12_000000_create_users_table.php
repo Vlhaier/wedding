@@ -27,6 +27,8 @@ class CreateUsersTable extends Migration
             $table->boolean('godfather')->default(0);
             $table->boolean('attend')->default(0);
             $table->timestamp('deleted_at')->nullable();
+            $table->string('heading')->nullable();
+            $table->string('username')->nullable();
         });
     }
 

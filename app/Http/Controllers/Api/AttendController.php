@@ -35,6 +35,6 @@ class AttendController extends Controller
 
         $user->update($request->only(['attend']));
 
-        return response()->json([], 204);
+        return response()->json($user, 200);
     }
 }

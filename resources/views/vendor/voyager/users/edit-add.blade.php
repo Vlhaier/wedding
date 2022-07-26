@@ -52,12 +52,25 @@
                             </div>
 
                             <div class="form-group">
+                                @php
+                                    $dataTypeRows = $dataType->{(isset($dataTypeContent->id) ? 'editRows' : 'addRows' )};
+                                    $row = $dataTypeRows->where('field', 'username')->first();
+                                @endphp
+                                <label class="control-label" for="name">{{ $row->getTranslatedAttribute('display_name') }}</label>
+                                {!! app('voyager')->formField($row, $dataType, $dataTypeContent) !!}
+                            </div>
+
+                            <div class="form-group">
                                 <label for="password">{{ __('voyager::generic.password') }}</label>
                                 @if(isset($dataTypeContent->password))
+                                    <input type="password" class="form-control" id="password" name="password" value="" autocomplete="new-password">
                                     <br>
                                     <small>{{ __('voyager::profile.password_hint') }}</small>
+                                @else
+                                    <input type="password" class="form-control" id="password" name="password" value="{{ setting('admin.default_password') }}" autocomplete="new-password">
+                                    <br>
+                                    <small>{{ __('voyager::profile.password_default') }} <strong>{{ setting('admin.default_password') }}</strong></small>
                                 @endif
-                                <input type="password" class="form-control" id="password" name="password" value="" autocomplete="new-password">
                             </div>
 
                             @can('editRoles', $dataTypeContent)

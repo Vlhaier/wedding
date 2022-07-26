@@ -11,9 +11,9 @@
                         <form action="{{ route('login') }}" method="POST" class="mt-8">
                             @csrf
                             <div>
-                                <label class="text-green-800" for="email">Usuario</label>
-                                <input id="email" type="text" name="email" class="block w-full py-3 px-4 mt-2 leading-5 transition duration-150 ease-in-out rounded form-input text-sm bg-amber-100 border border-amber-300 placeholder-amber-400 text-green-700 focus:outline-none focus:border-amber-500 focus:shadow-none" placeholder="Escribe tu usuario" required>
-                                @error('email')
+                                <label class="text-green-800" for="username">Usuario</label>
+                                <input id="username" type="text" name="username" class="block w-full py-3 px-4 mt-2 leading-5 transition duration-150 ease-in-out rounded form-input text-sm bg-amber-100 border border-amber-300 placeholder-amber-400 text-green-700 focus:outline-none focus:border-amber-500 focus:shadow-none" placeholder="Escribe tu usuario" required>
+                                @error('username')
                                     <span class="text-red-500 text-sm">{{ $message }}</span>
                                 @enderror
                             </div>
