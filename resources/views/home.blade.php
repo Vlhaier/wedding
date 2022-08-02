@@ -108,6 +108,7 @@
                         <div class="ml-2">
                             <span class="font-JetBrains uppercase">Descripción</span>
                             <p class="font-JetBrains font-medium text-green-800 uppercase mt-2">El Salón se encuentra dentro del recinto de este hotel, esta podría ser la mejor opción pensando en tu comodidad para el regreso de la fiesta a tu hospedaje. Aprovecha la tarifa especial.</p>
+                            <p class="font-JetBrains font-black text-green-800 uppercase mt-2">Reservar con el ID de descuento únicamente por WhatsApp o por llamada.</p>
                         </div>
                     </div>
                     <div class="md:grid xl:grid-cols-7 grid-cols-8 xl:gap-6 gap-3 mt-5">
@@ -232,7 +233,7 @@
                     <h2 class="md:text-5xl text-4xl text-green-800 font-semibold">Aeropuerto</h2>
                     <h3 class="md:text-3xl text-2xl sm:mt-6 mt-3">Sobre tu llegada a Chiapas</h3>
                     <p class="font-JetBrains font-medium text-green-800 uppercase mt-1">
-                        El aeropuerto más cercano a San Cristóbal de las Casas es el Aeropuerto Internacional Ángel Albino Corzo. Para ir a San Cristóbal de las Casas te sugerimos estas opciones y si necesitas más información de transporte puedes
+                        El aeropuerto más cercano a San Cristóbal de las Casas es el <strong class="font-black">Aeropuerto Internacional Ángel Albino Corzo</strong>. Para ir a San Cristóbal de las Casas te sugerimos estas opciones y si necesitas más información de transporte puedes
                         <a
                             href="http://www.chiapasdespega.com/?fbclid=IwAR3sp98MtNkWoMjRR-QgShIa4Ukb8J_dOSudYVEo_2GQa8-m2P7-UOiZ2QM"
                             class="inline-flex items-center font-medium normal-case text-lg"

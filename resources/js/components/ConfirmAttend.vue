@@ -28,7 +28,7 @@ export default {
                             $('#btn-no').removeClass('disabled');
 
                             sweetAlert.fire(
-                              'Gracias confirmar',
+                              'Gracias por confirmar',
                               'Nos vemos muy pronto',
                               'success'
                             );
