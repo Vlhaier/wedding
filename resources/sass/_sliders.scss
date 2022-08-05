@@ -20,19 +20,6 @@
   }
 }
 
-[class^="slider-"],
-[class*=" slider-"] {
-  transition: opacity 0.3s ease;
-  @apply opacity-0 invisible;
-  @screen xl {
-    @apply opacity-100 visible;
-  }
-
-  &.slick-initialized {
-    @apply opacity-100 visible;
-  }
-}
-
 .slider-home .slick-slide {
   @apply w-80;
   @screen md {

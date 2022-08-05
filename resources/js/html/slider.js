@@ -14,7 +14,7 @@ $(function () {
      * @link http://kenwheeler.github.io/slick
      */
     // Carousel from site - 3 elements.
-    if (screen.width <= 1279) {
+    if ($(document).width() <= 1279) {
         $('.slider-home').slick({
             lazyLoad: 'ondemand',
             slidesToShow: 1,
